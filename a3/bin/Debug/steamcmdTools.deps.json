@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "steamcmdTools/1.0.0": {
+        "dependencies": {
+          "SteamCMD.ConPTY": "1.2.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.20348.21"
+        },
+        "runtime": {
+          "steamcmdTools.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.20348.21": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.20348.21",
+            "fileVersion": "10.0.20348.21"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.5.36601"
+          }
+        }
+      },
+      "SteamCMD.ConPTY/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/SteamCMD.ConPTY.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "steamcmdTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.20348.21": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SteamCMD.ConPTY/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9vKq0yTunZhM39QOG5YUuqk19sqZYUcQx0phLUikhEA4k0l0bHKGFHJ8hvgENpSZmLWox5KY1GCdIenysgFE7w==",
+      "path": "steamcmd.conpty/1.2.0",
+      "hashPath": "steamcmd.conpty.1.2.0.nupkg.sha512"
+    }
+  }
+}

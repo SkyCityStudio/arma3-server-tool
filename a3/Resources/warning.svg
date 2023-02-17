@@ -1,0 +1,14 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Black{fill:#727272;}
+	.Red{fill:#D11C1C;}
+	.Yellow{fill:#FFB115;}
+	.Green{fill:#039C23;}
+</style>
+  <g id="Warning">
+    <path d="M14.9,4.7c0.6-1,1.5-1,2.1,0l12.7,21.5c0.6,1,0.1,1.8-1,1.8H3.3c-1.2,0-1.6-0.8-1-1.8L14.9,4.7z" class="Yellow" />
+    <circle cx="16" cy="22" r="2" class="Black" />
+    <rect x="14" y="10" width="4" height="8" rx="0" ry="0" class="Black" />
+  </g>
+</svg>

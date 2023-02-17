@@ -1,0 +1,12 @@
+
+
+[2022-03-06 00:15:29] Failed to read store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf.tmp'
+[2022-03-06 00:15:29] Failed to read store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf.tmp'
+[2022-03-06 00:15:29] Failed to read store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf.tmp'
+[2022-03-06 00:15:30] Flushed store 'install' to 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf'
+[2022-03-06 00:15:51] Flushed store 'install' to 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf'
+
+
+[2022-03-06 00:17:14] Loaded store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf' successfully
+[2022-03-06 00:17:14] Loaded store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf' successfully
+[2022-03-06 00:17:14] Loaded store 'install' from 'D:\source\repos\steamcmd\steamcmd\bin\Release\netcoreapp3.1\cmd\config\config.vdf' successfully

@@ -1,0 +1,22 @@
+[
+  {
+    "ModulePath": "G:\\testcmd\\steamapps\\workshop\\content\\107410",
+    "Prefix": "",
+    "Remark": "自动设置的steamcmd模组路径"
+  },
+  {
+    "ModulePath": "G:\\STEAM\\steamapps\\common\\Arma 3\\!Workshop",
+    "Prefix": "@",
+    "Remark": "Workshop"
+  },
+  {
+    "ModulePath": "G:\\STEAM\\steamapps\\common\\Arma 3 Server",
+    "Prefix": "@",
+    "Remark": "22"
+  },
+  {
+    "ModulePath": "C:\\Users\\Administrator\\Desktop\\steamapps\\workshop\\content\\107410",
+    "Prefix": "",
+    "Remark": "自动设置的steamcmd模组路径"
+  }
+]

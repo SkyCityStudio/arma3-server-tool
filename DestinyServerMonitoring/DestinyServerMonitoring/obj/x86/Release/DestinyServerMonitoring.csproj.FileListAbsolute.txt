@@ -1,0 +1,6 @@
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\bin\x86\Release\DestinyServerMonitoring.dll
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\bin\x86\Release\DestinyServerMonitoring.pdb
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\obj\x86\Release\DestinyServerMonitoring.csproj.AssemblyReference.cache
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\obj\x86\Release\DestinyServerMonitoring.csproj.CoreCompileInputs.cache
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\obj\x86\Release\DestinyServerMonitoring.dll
+D:\Backup\Documents\arma3-server-tools\DestinyServerMonitoring\DestinyServerMonitoring\obj\x86\Release\DestinyServerMonitoring.pdb

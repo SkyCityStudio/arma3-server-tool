@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{564B7140-AFC2-4285-BF82-D8304C0F2F0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Arma3ServerTools</RootNamespace>
+    <AssemblyName>Arma3ServerTools</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1_arma3server_x64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="CronExpressionDescriptor, Version=2.16.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CronExpressionDescriptor.2.16.0\lib\netstandard2.0\CronExpressionDescriptor.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Dashboard.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v21.2.UI, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Dialogs.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v21.2.Extensions, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Tutorials.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Program Files (x86)\DevExpress 21.2\Components\Bin\Framework\DevExpress.Tutorials.v21.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v21.2.UI, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v21.2.UI, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v21.2.Wizard, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraWizard.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Sqlite.Core.7.0.0-preview.1.22076.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Context, Version=5.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.Context.5.1.2\lib\net461\Nito.AsyncEx.Context.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Coordination, Version=5.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.Coordination.5.1.2\lib\net461\Nito.AsyncEx.Coordination.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Interop.WaitHandles, Version=5.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.Interop.WaitHandles.5.1.2\lib\net461\Nito.AsyncEx.Interop.WaitHandles.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Oop, Version=5.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.Oop.5.1.2\lib\net461\Nito.AsyncEx.Oop.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Tasks, Version=5.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.Tasks.5.1.2\lib\net461\Nito.AsyncEx.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.Cancellation, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.Cancellation.1.1.2\lib\net461\Nito.Cancellation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.Collections.Deque, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.Collections.Deque.1.1.1\lib\net461\Nito.Collections.Deque.dll</HintPath>
+    </Reference>
+    <Reference Include="Nito.Disposables, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.Disposables.2.2.1\lib\net461\Nito.Disposables.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Quartz, Version=3.3.3.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.3.3.3\lib\net472\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.2.0.7\lib\net461\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.core.2.0.7\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.nativelibrary, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=502ed628492ab262, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.2.0.7\lib\net461\SQLitePCLRaw.nativelibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.dynamic_cdecl, Version=2.0.7.1395, Culture=neutral, PublicKeyToken=b68184102cba0b3b, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.provider.dynamic_cdecl.2.0.7\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.7.1\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.7.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattlEye\Commands\BanOnlinePlayerCommand.cs" />
+    <Compile Include="BattlEye\Commands\BanPlayerCommand.cs" />
+    <Compile Include="BattlEye\Commands\ChangeRconPasswordCommand.cs" />
+    <Compile Include="BattlEye\Commands\Command.cs" />
+    <Compile Include="BattlEye\Commands\GetBansRequest.cs" />
+    <Compile Include="BattlEye\Commands\GetMissionsRequest.cs" />
+    <Compile Include="BattlEye\Commands\GetPlayersRequest.cs" />
+    <Compile Include="BattlEye\Commands\IHandlesResponse.cs" />
+    <Compile Include="BattlEye\Commands\InitCommand.cs" />
+    <Compile Include="BattlEye\Commands\IProvidesResponse.cs" />
+    <Compile Include="BattlEye\Commands\KickCommand.cs" />
+    <Compile Include="BattlEye\Commands\LoadBansCommand.cs" />
+    <Compile Include="BattlEye\Commands\LoadEventFiltersCommand.cs" />
+    <Compile Include="BattlEye\Commands\LoadMissionCommand.cs" />
+    <Compile Include="BattlEye\Commands\LoadScriptFiltersCommand.cs" />
+    <Compile Include="BattlEye\Commands\LockServerCommand.cs" />
+    <Compile Include="BattlEye\Commands\ReassignCommand.cs" />
+    <Compile Include="BattlEye\Commands\RemoveBanCommand.cs" />
+    <Compile Include="BattlEye\Commands\RestartMissionCommand.cs" />
+    <Compile Include="BattlEye\Commands\SaveBansCommand.cs" />
+    <Compile Include="BattlEye\Commands\SendMessageCommand.cs" />
+    <Compile Include="BattlEye\Commands\SetMaxPingCommand.cs" />
+    <Compile Include="BattlEye\Commands\ShutdownCommand.cs" />
+    <Compile Include="BattlEye\Commands\UnlockCommand.cs" />
+    <Compile Include="BattlEye\Domain\Mission.cs" />
+    <Compile Include="BattlEye\Domain\Player.cs" />
+    <Compile Include="BattlEye\Domain\PlayerBan.cs" />
+    <Compile Include="BattlEye\Events\GenericParsedEventArgs.cs" />
+    <Compile Include="BattlEye\Events\PlayerConnectedArgs.cs" />
+    <Compile Include="BattlEye\Events\PlayerDisconnectedArgs.cs" />
+    <Compile Include="BattlEye\Events\PlayerRemovedArgs.cs" />
+    <Compile Include="BattlEye\HashAlgorithms\Crc32.cs" />
+    <Compile Include="BattlEye\NetworkConnection.cs" />
+    <Compile Include="BattlEye\NetworkMessage.cs" />
+    <Compile Include="BattlEye\NetworkMessageHandler.cs" />
+    <Compile Include="BattlEye\NetworkPackageType.cs" />
+    <Compile Include="BattlEye\RconClient.cs" />
+    <Compile Include="BattlEye\Requests\AcknowledgeRequest.cs" />
+    <Compile Include="BattlEye\Requests\CommandNetworkRequest.cs" />
+    <Compile Include="BattlEye\Requests\LoginNetworkRequest.cs" />
+    <Compile Include="BattlEye\Requests\NetworkRequest.cs" />
+    <Compile Include="BattlEye\Requests\SequentialNetworkRequest.cs" />
+    <Compile Include="BattlEye\Responses\AckNetworkResponse.cs" />
+    <Compile Include="BattlEye\Responses\CommandNetworkResponse.cs" />
+    <Compile Include="BattlEye\Responses\LoginNetworkResponse.cs" />
+    <Compile Include="BattlEye\Responses\NetworkResponse.cs" />
+    <Compile Include="BattlEye\SequenceCounter.cs" />
+    <Compile Include="BattlEye\StringEncoder.cs" />
+    <Compile Include="Config\DefaultConfig.cs" />
+    <Compile Include="Config\SqliteUtils.cs" />
+    <Compile Include="Dialog\AddTaskDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\AddTaskDialog.Designer.cs">
+      <DependentUpon>AddTaskDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\BanPlayerDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\BanPlayerDialog.Designer.cs">
+      <DependentUpon>BanPlayerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\BansurlControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\BansurlControl.Designer.cs">
+      <DependentUpon>BansurlControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\BikeyListDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\BikeyListDialog.Designer.cs">
+      <DependentUpon>BikeyListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\ModuleScanPathDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\ModuleScanPathDialog.Designer.cs">
+      <DependentUpon>ModuleScanPathDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SteamcmdConfigDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\SteamcmdConfigDialog.Designer.cs">
+      <DependentUpon>SteamcmdConfigDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\SubscribeModsDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialog\SubscribeModsDialog.Designer.cs">
+      <DependentUpon>SubscribeModsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\BansUrlEntity.cs" />
+    <Compile Include="Entity\BEServerCfgEntity.cs" />
+    <Compile Include="Entity\CronEntity.cs" />
+    <Compile Include="Entity\LocalBansEntity.cs" />
+    <Compile Include="Entity\MissionsEntity.cs" />
+    <Compile Include="Entity\ModMeta.cs" />
+    <Compile Include="Entity\ModsEntity.cs" />
+    <Compile Include="Entity\ModuleScanPathEntity.cs" />
+    <Compile Include="Entity\PlayerDB.cs" />
+    <Compile Include="Entity\ServerConfigEntity.cs" />
+    <Compile Include="Entity\SkinEntity.cs" />
+    <Compile Include="Entity\SteamcmdEntity.cs" />
+    <Compile Include="Extension\ExtensionTools.cs" />
+    <Compile Include="FluentDesignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FluentDesignForm.Designer.cs">
+      <DependentUpon>FluentDesignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AboutUsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\AboutUsControl.Designer.cs">
+      <DependentUpon>AboutUsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BansUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BansUserControl.Designer.cs">
+      <DependentUpon>BansUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BasicSettingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\BasicSettingUserControl.Designer.cs">
+      <DependentUpon>BasicSettingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DifficultySettingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\DifficultySettingUserControl.Designer.cs">
+      <DependentUpon>DifficultySettingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\IndexUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\IndexUserControl.Designer.cs">
+      <DependentUpon>IndexUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\LogSettingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\LogSettingUserControl.Designer.cs">
+      <DependentUpon>LogSettingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MissionSettingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\MissionSettingUserControl.Designer.cs">
+      <DependentUpon>MissionSettingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ModSettingsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ModSettingsUserControl.Designer.cs">
+      <DependentUpon>ModSettingsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\NetworkSettingsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\NetworkSettingsUserControl.Designer.cs">
+      <DependentUpon>NetworkSettingsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PerformanceSettingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PerformanceSettingUserControl.Designer.cs">
+      <DependentUpon>PerformanceSettingUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\QuickConfigurationWizardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\QuickConfigurationWizardControl.Designer.cs">
+      <DependentUpon>QuickConfigurationWizardControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SecuritySettingsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\SecuritySettingsUserControl.Designer.cs">
+      <DependentUpon>SecuritySettingsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Load\Wait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load\Wait.Designer.cs">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskJob\ServerRestartManagementJob.cs" />
+    <Compile Include="Tools\CfgTool.cs" />
+    <Compile Include="Tools\FileTools.cs" />
+    <Compile Include="Tools\IPv4Tools.cs" />
+    <Compile Include="Tools\JsonConversionTool.cs" />
+    <Compile Include="Tools\MachineCodeTool.cs" />
+    <Compile Include="Tools\MissionsTool.cs" />
+    <Compile Include="Tools\MonitoringServiceSqliteUtils.cs" />
+    <Compile Include="Tools\RegularMatchTool.cs" />
+    <Compile Include="Tools\Security.cs" />
+    <Compile Include="Tools\StartManagementTools.cs" />
+    <Compile Include="Tools\SteamcmdTools.cs" />
+    <Compile Include="Window\QuickConfigurationWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\QuickConfigurationWizard.Designer.cs">
+      <DependentUpon>QuickConfigurationWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\ProcessCommunication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\ProcessCommunication.Designer.cs">
+      <DependentUpon>ProcessCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\ServerStatisticsManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\ServerStatisticsManagement.Designer.cs">
+      <DependentUpon>ServerStatisticsManagement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\AddTaskDialog.resx">
+      <DependentUpon>AddTaskDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AddTaskDialog.zh-CN.resx">
+      <DependentUpon>AddTaskDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\BanPlayerDialog.resx">
+      <DependentUpon>BanPlayerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\BansurlControl.resx">
+      <DependentUpon>BansurlControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\BikeyListDialog.resx">
+      <DependentUpon>BikeyListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ModuleScanPathDialog.resx">
+      <DependentUpon>ModuleScanPathDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SteamcmdConfigDialog.resx">
+      <DependentUpon>SteamcmdConfigDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\SubscribeModsDialog.resx">
+      <DependentUpon>SubscribeModsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FluentDesignForm.resx">
+      <DependentUpon>FluentDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AboutUsControl.resx">
+      <DependentUpon>AboutUsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BansUserControl.resx">
+      <DependentUpon>BansUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\BasicSettingUserControl.resx">
+      <DependentUpon>BasicSettingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DifficultySettingUserControl.resx">
+      <DependentUpon>DifficultySettingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\IndexUserControl.resx">
+      <DependentUpon>IndexUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\LogSettingUserControl.resx">
+      <DependentUpon>LogSettingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\MissionSettingUserControl.resx">
+      <DependentUpon>MissionSettingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ModSettingsUserControl.resx">
+      <DependentUpon>ModSettingsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\NetworkSettingsUserControl.resx">
+      <DependentUpon>NetworkSettingsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PerformanceSettingUserControl.resx">
+      <DependentUpon>PerformanceSettingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\QuickConfigurationWizardControl.resx">
+      <DependentUpon>QuickConfigurationWizardControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\SecuritySettingsUserControl.resx">
+      <DependentUpon>SecuritySettingsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Load\Wait.resx">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\QuickConfigurationWizard.resx">
+      <DependentUpon>QuickConfigurationWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\ProcessCommunication.resx">
+      <DependentUpon>ProcessCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\ServerStatisticsManagement.resx">
+      <DependentUpon>ServerStatisticsManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettingstarted.svg" />
+    <None Include="Resources\paymentunpaid.svg" />
+    <None Include="Resources\paymentunpaid1.svg" />
+    <None Include="Resources\changeview.svg" />
+    <None Include="Resources\alignhorizontalbottom.svg" />
+    <None Include="Resources\bo_note.svg" />
+    <None Include="Resources\sparkline.svg" />
+    <None Include="Resources\appointmentdayclock.svg" />
+    <None Include="Resources\monthview.svg" />
+    <None Include="Resources\showallvalue.svg" />
+    <None Include="Resources\menu.svg" />
+    <None Include="Resources\actions_forbid.svg" />
+    <None Include="Resources\defaultmap.svg" />
+    <None Include="Resources\glyph_message.svg" />
+    <None Include="Resources\actions_database.svg" />
+    <None Include="Resources\save.svg" />
+    <None Include="Resources\update.svg" />
+    <None Include="Resources\editfilter.svg" />
+    <None Include="Resources\bo_security_permission.svg" />
+    <None Include="Resources\security_key.svg" />
+    <None Include="Resources\bo_notifications.svg" />
+    <None Include="Resources\highimportance.svg" />
+    <None Include="Resources\bo_audit_changehistory.svg" />
+    <None Include="Resources\update1.svg" />
+    <None Include="Resources\recurringappointment.svg" />
+    <None Include="Resources\security_warningcircled2.svg" />
+    <None Include="Resources\actions_forbid1.svg" />
+    <None Include="Resources\actions_removecircled.svg" />
+    <None Include="Resources\glyph_message1.svg" />
+    <None Include="Resources\copy.svg" />
+    <None Include="Resources\warning.svg" />
+    <None Include="Resources\paymentunpaid2.svg" />
+    <None Include="Resources\glyph_message2.svg" />
+    <None Include="Resources\copy1.svg" />
+    <None Include="Resources\gettingstarted1.svg" />
+    <None Include="Resources\switchtimescalesto.svg" />
+    <None Include="Resources\charttype_scatterradarline.svg" />
+    <None Include="Resources\switchtimescalesto1.svg" />
+    <None Include="Resources\deferred.svg" />
+    <None Include="Resources\notstarted.svg" />
+    <None Include="Resources\recurringappointment1.svg" />
+    <None Include="Resources\deletetable.svg" />
+    <None Include="Resources\addquery.svg" />
+    <None Include="Resources\refreshallpivottable.svg" />
+    <None Include="Resources\deletedatasource.svg" />
+    <None Include="Resources\changeconnectortype.svg" />
+    <None Include="Resources\LOGO5.png" />
+    <None Include="Resources\LOGO51.png" />
+    <Content Include="1_arma3server_x64.ico" />
+    <None Include="Resources\actions_question.svg" />
+    <None Include="Resources\update2.svg" />
+    <None Include="Resources\actions_deletecircled.svg" />
+    <None Include="Resources\open2.svg" />
+    <None Include="Resources\spellcheck.svg" />
+    <None Include="Resources\customizegrid.svg" />
+    <None Include="Resources\listofparameters.svg" />
+    <None Include="Resources\bletter.svg" />
+    <None Include="Resources\actions_question1.svg" />
+    <None Include="Resources\actions_arrow3left.svg" />
+    <None Include="Resources\bo_localization.svg" />
+    <None Include="Resources\save1.svg" />
+    <None Include="Resources\actions_addcircled.svg" />
+    <None Include="Resources\actions_deletecircled1.svg" />
+    <None Include="Resources\removedataitems.svg" />
+    <None Include="Resources\actions_addcircled1.svg" />
+    <None Include="Resources\servermode.svg" />
+    <None Include="Resources\customizegrid1.svg" />
+    <Content Include="Resources\11.png" />
+    <None Include="Resources\111.png" />
+    <Content Include="Resources\22.png" />
+    <None Include="Resources\221.png" />
+    <Content Include="Resources\33.png" />
+    <None Include="Resources\331.png" />
+    <Content Include="TextTemplate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Fun\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppUpdate\AppUpdate.csproj">
+      <Project>{93FE2988-F998-4378-B3EC-EA130DCB47D2}</Project>
+      <Name>AppUpdate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.7\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.7\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.7\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.7\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

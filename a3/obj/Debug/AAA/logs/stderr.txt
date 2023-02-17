@@ -1,0 +1,1 @@
+src\tier0\threadtools.cpp (3628) : Assertion Failed: Illegal termination of worker thread 'CIPCServer::m_ThreadClient'

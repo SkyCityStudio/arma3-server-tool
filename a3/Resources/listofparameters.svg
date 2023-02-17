@@ -1,0 +1,11 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 16 16">
+  <style type="text/css">
+	.Green{fill:#119B49;}
+	.Blue{fill:#3475BA;}
+	.Black{fill:#737373;}
+</style>
+  <rect x="0" y="1" width="16" height="3" rx="0" ry="0" class="Green" />
+  <polygon points="15,4 15,14 1,14 1,4 0,4 0,15 16,15 16,4 " class="Black" />
+  <path d="M6.8,10.2V9.8c0-0.5,0.1-0.6,0.3-0.9C7.4,8.6,7.8,8.4,8,8.1s0.3-0.4,0.3-0.7S8.1,7,7.6,7C7.5,7,7.2,7,6.2,7.3  v-1C6.7,6.1,7.2,6,7.6,6c1.3,0,2,0.5,2,1.5c0,0.5-0.1,1-0.6,1.4L8.1,9.6C8,9.7,8,9.7,8,9.9v0.3H6.8L6.8,10.2z M7.4,12  c-0.4,0-0.7-0.1-0.7-0.6v-0.1c0-0.5,0.3-0.6,0.7-0.6s0.7,0.1,0.7,0.6v0.1C8.1,11.9,7.9,12,7.4,12z" class="Blue" />
+</svg>

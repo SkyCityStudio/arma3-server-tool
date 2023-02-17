@@ -1,0 +1,9 @@
+
+
+[2022-03-06 18:21:17] Shader manager disabled due to running as steamcmd
+
+
+[2022-03-07 20:18:58] Shader manager disabled due to running as steamcmd
+
+
+[2022-03-07 20:23:56] Shader manager disabled due to running as steamcmd

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://tools.arma3bbs.com/arma3_server_tools/bans.txt",
+    "enable": true
+  },
+  {
+    "url": "http://tools.arma3bbs.com/arma3_server_tools/bans2.txt",
+    "enable": true
+  },
+  {
+    "url": "http://tools.arma3bbs.com/arma3_server_tools/B.txt",
+    "enable": true
+  }
+]

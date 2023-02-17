@@ -1,0 +1,12 @@
+
+
+[2022-03-06 18:21:17] Initializing System Manager
+[2022-03-06 18:21:17] Suspend inhibited
+
+
+[2022-03-07 20:18:58] Initializing System Manager
+[2022-03-07 20:18:58] Suspend inhibited
+
+
+[2022-03-07 20:23:56] Initializing System Manager
+[2022-03-07 20:23:56] Suspend inhibited

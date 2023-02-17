@@ -1,0 +1,108 @@
+"InstallConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"AutoUpdateWindowEnabled"		"0"
+				"ipv6check_http_state"		"bad"
+				"ipv6check_udp_state"		"bad"
+				"RecentWebSocket443Failures"		"1646496950"
+				"RecentWebSocketNon443Failures"		"1646496950,1646496950"
+				"RecentUDPFailures"		""
+				"RecentTCPFailures"		""
+				"CMWebSocket"
+				{
+					"cm01-ord.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"1646496950"
+						"LastPingValue"		"100000"
+						"LastLoadValue"		"0"
+					}
+					"cm01-ord.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"1646496950"
+						"LastPingValue"		"100000"
+						"LastLoadValue"		"0"
+					}
+					"cm02-ord.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm02-ord.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"1646496950"
+						"LastPingValue"		"100000"
+						"LastLoadValue"		"0"
+					}
+					"cm03-ord.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm03-ord.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm04-ord.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm04-ord.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm1-iad1.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm1-iad1.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm2-iad1.cm.steampowered.com.:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm2-iad1.cm.steampowered.com.:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm3-iad1.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm3-iad1.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm4-iad1.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm4-iad1.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm1-lax1.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm1-lax1.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm2-lax1.cm.steampowered.com:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cm2-lax1.cm.steampowered.com:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+				}
+			}
+		}
+	}
+}

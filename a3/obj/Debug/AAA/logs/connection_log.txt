@@ -1,0 +1,58 @@
+
+
+[2022-03-06 18:21:17] Log session started
+[2022-03-06 18:21:17] [0,0] SetSteamID( [U:1:0] )
+[2022-03-06 18:21:17] IPv6 HTTP connectivity test (ipv6check-http.steamcontent.com / 0.0.0.0:80 (0.0.0.0:80)) - TIMEOUT
+[2022-03-06 18:21:17] IPv6 UDP connectivity test (ipv6check-udp.steamcontent.com) - FAILED, no addresses resolved
+[2022-03-06 18:21:17] [0,0] SetSteamID( [U:1:0] )
+[2022-03-06 18:21:17] [0,0] SetSteamID( [U:1:0] )
+[2022-03-06 18:21:17] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect web api
+[2022-03-06 18:21:37] GetCMListForConnect -- web API call failed (status = 0)
+[2022-03-06 18:21:37] [0,0] CM Directory list says 35% of connections should be websockets, we rolled 48 - using UDP as default.
+[2022-03-06 18:21:37] [1,2] Connect() starting connection (eNetQOSLevelHigh, 162.254.193.6:27017, UDP)
+[2022-03-06 18:21:38] [1,2] ConnectionCompleted() (162.254.195.66:27019, UDP) local address (0.0.0.0:53735)
+[2022-03-06 18:21:38] [1,2] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2022-03-06 18:21:39] [1,2] RecvMsgClientLogOnResponse() : [I:0:0] 'Invalid Password'
+[2022-03-06 18:21:39] [1,2] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
+[2022-03-06 18:21:39] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (162.254.195.66:27019, UDP)
+[2022-03-06 18:21:39] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+
+
+[2022-03-07 20:18:58] Log session started
+[2022-03-07 20:18:58] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:18:58] IPv6 HTTP connectivity test (ipv6check-http.steamcontent.com / 0.0.0.0:80 (0.0.0.0:80)) - TIMEOUT
+[2022-03-07 20:18:58] IPv6 UDP connectivity test (ipv6check-udp.steamcontent.com) - FAILED, no addresses resolved
+[2022-03-07 20:18:59] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:18:59] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:18:59] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect web api
+[2022-03-07 20:19:00] GetCMListForConnect -- got 38 Netfilter CMs and 31 WebSocket CMs
+[2022-03-07 20:19:00] GetCMListForConnect -- DC 'hkg1' count: 18
+[2022-03-07 20:19:00] GetCMListForConnect -- DC 'sgp1' count: 20
+[2022-03-07 20:19:00] GetCMListForConnect -- DC 'tyo1' count: 12
+[2022-03-07 20:19:00] GetCMListForConnect -- DC 'tyo2' count: 19
+[2022-03-07 20:19:00] [0,0] CM Directory list says 44% of connections should be websockets, we rolled 55 - using UDP as default.
+[2022-03-07 20:19:00] [1,2] Connect() starting connection (eNetQOSLevelHigh, 153.254.86.29:27017, UDP)
+[2022-03-07 20:19:01] [1,2] ConnectionCompleted() (155.133.245.37:27020, UDP) local address (0.0.0.0:63583)
+[2022-03-07 20:19:01] [1,2] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2022-03-07 20:19:01] [1,2] RecvMsgClientLogOnResponse() : [I:0:0] 'Invalid Password'
+[2022-03-07 20:19:01] [1,2] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
+[2022-03-07 20:19:01] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (155.133.245.37:27020, UDP)
+[2022-03-07 20:19:01] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+
+
+[2022-03-07 20:23:56] Log session started
+[2022-03-07 20:23:56] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:23:56] IPv6 HTTP connectivity test (ipv6check-http.steamcontent.com / 0.0.0.0:80 (0.0.0.0:80)) - TIMEOUT
+[2022-03-07 20:23:56] IPv6 UDP connectivity test (ipv6check-udp.steamcontent.com) - FAILED, no addresses resolved
+[2022-03-07 20:23:56] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:23:56] [0,0] SetSteamID( [U:1:0] )
+[2022-03-07 20:23:56] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect web api
+[2022-03-07 20:24:17] GetCMListForConnect -- web API call failed (status = 0)
+[2022-03-07 20:24:17] [0,0] CM Directory list says 35% of connections should be websockets, we rolled 83 - using UDP as default.
+[2022-03-07 20:24:17] [1,2] Connect() starting connection (eNetQOSLevelHigh, 162.254.193.6:27017, UDP)
+[2022-03-07 20:24:18] [1,2] ConnectionCompleted() (162.254.195.66:27017, UDP) local address (0.0.0.0:61310)
+[2022-03-07 20:24:18] [1,2] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2022-03-07 20:24:18] [1,2] RecvMsgClientLogOnResponse() : [I:0:0] 'Invalid Password'
+[2022-03-07 20:24:18] [1,2] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
+[2022-03-07 20:24:18] [0,0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (162.254.195.66:27017, UDP)
+[2022-03-07 20:24:18] [0,0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
