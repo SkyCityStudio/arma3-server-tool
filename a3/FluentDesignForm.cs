@@ -55,13 +55,14 @@ namespace a3
 
             HttpHelper httpHelper = new HttpHelper();
 
+			/*
             Task.Run(()=> {
                 try
                 {
-                    httpHelper.DoGet("http://tools.destiny.cool/arma3_server_tools/use.php?machineCode=" + Convert.ToBase64String(Encoding.Default.GetBytes(DefaultConfig.mx)), null);
+                    httpHelper.DoGet("" + Convert.ToBase64String(Encoding.Default.GetBytes(DefaultConfig.mx)), null);
                 }
                 catch { }
-            });
+            });*/
 
 
             try
