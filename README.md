@@ -21,7 +21,7 @@
 #### 描述
 1.  a3 开服工具项目
 2.  AppUpdate 升级开服工具项目
-3.  DestinyServerMonitoring 武装突袭3的扩张，用于与开服工具通讯
+3.  DestinyServerMonitoring 武装突袭3服务器的dll扩展，用于与开服工具通讯
 4.	Steamcmdtools Steamcmd封装(已废弃)
 
 
