@@ -1,37 +1,38 @@
 # arma3ServerTools
 
 #### 介绍
-开服工具源码
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+DESTINY 开服工具源码，小白开服工具。
 
 #### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  Blue
+2.  七龙
 
 
-#### 特技
+#### 使用说明
+1.  vs版本2022或以上
+2.  DevExpress版本v21.2或以上
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 描述
+1.  a3 开服工具项目
+2.  AppUpdate 升级开服工具项目
+3.  DestinyServerMonitoring 武装突袭3的扩张，用于与开服工具通讯
+4.	Steamcmdtools Steamcmd封装(已废弃)
+
+
+#### 特色和优点:
+可以添加创意工坊的MODID/URL，启动器导出来自HTML，从剪辑版复制的ID，本地的模组等识别并下载（使用steamcmd）。
+可以下载DLC服务端，更新指定服务端
+自动配置BE反作弊的基本规则，配置基本的关于创建，杀死，传送等基本的BE规则。
+自动配置rcon密码和端口
+提供基于BattlEye RCon V2协议的集成管理，T人B人等全系列功能。
+支持同时管理多个服务端，单独复制到其他服务端目录开服，上手直接开服。
+支持服务器，自动查询所有服务器并更新列表查询
+拥有的订阅者，可以为您订阅其他插件，例如服务端丰富的插件（开发中的实用插件）。
+统计，提供记录服务器的各项数据，服务器性能，内存，CPU监控，以及数据监控报告统计等（开发中）。
+自动重启（硬重启）+（脚本重启）+定点重启。
+收录了RAM3服务器的基本设置，安全设置，网络，任务设置，模组设置，设置，性能设置，日志设置。
+UI布局自动适应，适合手机连接服务器时画面小进行管理。
+显示参数详细信息功能
+
+
+
