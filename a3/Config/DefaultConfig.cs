@@ -16,7 +16,7 @@ namespace a3.Config
     public class DefaultConfig
     {
 
-        public static string Version = "1.0.9.1";
+        public static string Version = "1.0.9.2";
 
         public static ISchedulerFactory schedFact = new StdSchedulerFactory();
 

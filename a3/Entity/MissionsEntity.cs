@@ -14,6 +14,7 @@ namespace a3.Entity
             Difficulty = difficulty;
             WhiteList = whiteList;
             Choose = choose;
+
         }
 
         public MissionsEntity()
@@ -24,5 +25,6 @@ namespace a3.Entity
         public int Difficulty { get; set; }
         public bool WhiteList { get; set; }
         public bool Choose { get; set; }
+
     }
 }

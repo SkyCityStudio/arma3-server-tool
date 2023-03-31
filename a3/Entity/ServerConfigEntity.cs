@@ -14,6 +14,9 @@ namespace a3.Entity
         public ServerBasic BasicConfig { get; set; } = new ServerBasic();
         public BattlEye BattlEyeConfig { get; set; } = new BattlEye();
         public ServerProfile serverProfile { get; set; } = new ServerProfile();
+        public Dictionary<String, String> MissionParams { get; set; } = new Dictionary<String, String>();
+
+
         public string SaveTime { get; set; } = "上次保存于:" + DateTime.Now.ToLocalTime().ToString();
         public string ServerDir { get; set; } = null;
 

@@ -442,6 +442,21 @@ namespace a3.Tools
                     sb.Append(DefaultConfig.Tab).Append("class ").Append("Destiny_studio_").Append((i + 1).ToString()).AppendLine(DefaultConfig.LeftSquareBrackets);
                     sb.Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).Append("template = ").Append(DefaultConfig.DoubleQuotes).Append(DefaultConfig.DefaultServer.ServerConfig.missions[i].Template.Replace(".pbo", "")).Append(DefaultConfig.DoubleQuotes).AppendLine(DefaultConfig.Semicolon);
                     sb.Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).Append("difficulty = ").Append(DefaultConfig.DoubleQuotes).Append(MissionsTool.intToDifficulty(DefaultConfig.DefaultServer.ServerConfig.missions[i].Difficulty)).Append(DefaultConfig.DoubleQuotes).AppendLine(DefaultConfig.Semicolon);
+
+                    string missionParams;
+                    if (DefaultConfig.DefaultServer.MissionParams.TryGetValue(DefaultConfig.DefaultServer.ServerConfig.missions[i].Template, out missionParams)) {
+
+                        var arr = missionParams.Split(new[] { Environment.NewLine },StringSplitOptions.None);
+                        StringBuilder missionSb = new StringBuilder();
+                        foreach (var param in arr) {
+                            missionSb.Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).AppendLine(param);
+                        }
+                        sb.Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).Append("class Params").AppendLine().Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).AppendLine(DefaultConfig.LeftSquareBrackets)
+                            .Append(missionSb)
+                            .AppendLine().Append(DefaultConfig.Tab).Append(DefaultConfig.Tab).Append(DefaultConfig.RightSquareBrackets).AppendLine(DefaultConfig.Semicolon);
+                    }
+
+                    
                     sb.Append(DefaultConfig.Tab).Append(DefaultConfig.RightSquareBrackets).AppendLine(DefaultConfig.Semicolon);
                 }
             }

@@ -138,5 +138,27 @@ namespace a3.Modules
             MissionSettingUserControl_Leave(null, null);
             XtraMessageBox.Show("保存本页配置完成!请点右上角击标题栏的保存按钮进行写入配置。", "ok", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private string MissionsID;
+        private void gridView1_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
+        {
+            memoEdit1.Enabled = true;
+            string template = gridView1.GetRowCellValue(e.RowHandle, "任务名称").ToString();
+            string tempParams;
+            DefaultConfig.DefaultServer.MissionParams.TryGetValue(template, out tempParams);
+            memoEdit1.Text = tempParams;
+            MissionsID = template;
+        }
+
+        private void memoEdit1_EditValueChanging(object sender, DevExpress.XtraEditors.Controls.ChangingEventArgs e)
+        {
+            if (null == MissionsID || null == e.NewValue || !memoEdit1.ContainsFocus) {
+                return;
+            }
+            if (DefaultConfig.DefaultServer.MissionParams.ContainsKey(MissionsID)) {
+                DefaultConfig.DefaultServer.MissionParams.Remove(MissionsID);
+            }
+            DefaultConfig.DefaultServer.MissionParams.Add(MissionsID, (string)e.NewValue);
+        }
     }
 }
