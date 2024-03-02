@@ -26,6 +26,7 @@ namespace Arma3ServerTools.Window
         {
             welcomeWizardPage1.Controls.Add(steamcmd);
             steamcmd.Dock = DockStyle.Fill;
+
         }
 
         private void wizardPage1_PageInit(object sender, EventArgs e)
@@ -37,18 +38,7 @@ namespace Arma3ServerTools.Window
 
         private void textEdit1_Click(object sender, EventArgs e)
         {
-            if (xtraFolderBrowserDialog1.ShowDialog(this) == DialogResult.OK)
-            {
-                if (Directory.Exists(xtraFolderBrowserDialog1.SelectedPath) && (File.Exists(xtraFolderBrowserDialog1.SelectedPath + @"\arma3server_x64.exe") || File.Exists(xtraFolderBrowserDialog1.SelectedPath + @"\arma3server.exe")))
-                {
-                    textEdit1.Text = xtraFolderBrowserDialog1.SelectedPath;
-                    DefaultConfig.DefaultServer.ServerDir = xtraFolderBrowserDialog1.SelectedPath;
-                }
-                else
-                {
-                    XtraMessageBox.Show("你选择的目录没有ARMA3服务端的可执行文件!请你重新选择带有 arma3server_x64.exe 文件的服务端目录!", "找不到文件", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                }
-            }
+            
         }
 
         private void textEdit2_EditValueChanged(object sender, EventArgs e)
@@ -77,6 +67,8 @@ namespace Arma3ServerTools.Window
                         return;
                     }
                     steamcmd.SaveConfig();
+                    textEdit1.Text = DefaultConfig.steamcmd.i;
+                    DefaultConfig.DefaultServer.ServerDir = DefaultConfig.steamcmd.i;
                     break;
                 case "SET2":
                     if (string.IsNullOrEmpty(textEdit1.Text) || string.IsNullOrEmpty(textEdit2.Text))

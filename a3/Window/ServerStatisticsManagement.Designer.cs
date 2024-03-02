@@ -30,173 +30,173 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServerStatisticsManagement));
-            DevExpress.XtraCharts.XYDiagram xyDiagram41 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series57 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView35 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery7 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column79 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression73 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table7 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column80 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression74 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column81 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression75 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column82 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression76 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column83 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression77 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column84 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression78 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column85 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression79 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column86 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression80 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column87 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression81 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column88 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression82 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column89 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression83 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column90 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression84 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column91 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression85 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column92 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression86 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column93 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression87 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column94 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression88 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column95 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression89 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column96 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression90 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.XtraCharts.XYDiagram xyDiagram42 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series58 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView36 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram43 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series59 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView37 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram44 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series60 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView38 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram45 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series61 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView39 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram46 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series62 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView40 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram47 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series63 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView41 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram48 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series64 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView42 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram49 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series65 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView43 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram50 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series66 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView44 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram51 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series67 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView45 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram52 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series68 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView46 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram53 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series69 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView47 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram54 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series70 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView48 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram55 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series71 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView49 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram56 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series72 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView50 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery8 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column97 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression91 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table8 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column98 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression92 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column99 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression93 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column100 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression94 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column101 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression95 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column102 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression96 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column103 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression97 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column104 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression98 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column105 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression99 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column106 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.CustomExpression customExpression11 = new DevExpress.DataAccess.Sql.CustomExpression();
-            DevExpress.DataAccess.Sql.Column column107 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.CustomExpression customExpression12 = new DevExpress.DataAccess.Sql.CustomExpression();
-            DevExpress.DataAccess.Sql.Column column108 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.CustomExpression customExpression13 = new DevExpress.DataAccess.Sql.CustomExpression();
-            DevExpress.DataAccess.Sql.Column column109 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.CustomExpression customExpression14 = new DevExpress.DataAccess.Sql.CustomExpression();
-            DevExpress.DataAccess.Sql.Column column110 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression100 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Sorting sorting5 = new DevExpress.DataAccess.Sql.Sorting();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression101 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.XtraCharts.XYDiagram xyDiagram57 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series73 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series74 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series75 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series76 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series77 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.Series series78 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.ChartTitle chartTitle9 = new DevExpress.XtraCharts.ChartTitle();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery9 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column111 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.CustomExpression customExpression15 = new DevExpress.DataAccess.Sql.CustomExpression();
-            DevExpress.DataAccess.Sql.Column column112 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression102 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table9 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column113 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression103 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column114 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression104 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column115 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression105 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column116 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression106 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column117 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression107 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Sorting sorting6 = new DevExpress.DataAccess.Sql.Sorting();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression108 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.XtraCharts.XYDiagram xyDiagram58 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series79 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.PointSeriesLabel pointSeriesLabel3 = new DevExpress.XtraCharts.PointSeriesLabel();
-            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView51 = new DevExpress.XtraCharts.StackedAreaSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle10 = new DevExpress.XtraCharts.ChartTitle();
-            DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery3 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
-            DevExpress.XtraCharts.SwiftPlotDiagram swiftPlotDiagram3 = new DevExpress.XtraCharts.SwiftPlotDiagram();
-            DevExpress.XtraCharts.Series series80 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.SwiftPointSeriesView swiftPointSeriesView3 = new DevExpress.XtraCharts.SwiftPointSeriesView();
-            DevExpress.XtraCharts.XYDiagram xyDiagram59 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series81 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.AreaSeriesView areaSeriesView7 = new DevExpress.XtraCharts.AreaSeriesView();
-            DevExpress.XtraCharts.Series series82 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.AreaSeriesView areaSeriesView8 = new DevExpress.XtraCharts.AreaSeriesView();
-            DevExpress.XtraCharts.Series series83 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.AreaSeriesView areaSeriesView9 = new DevExpress.XtraCharts.AreaSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle11 = new DevExpress.XtraCharts.ChartTitle();
-            DevExpress.XtraCharts.XYDiagram xyDiagram60 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series84 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.SeriesPoint seriesPoint3 = new DevExpress.XtraCharts.SeriesPoint("CUP使用率", new object[] {
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView1 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery1 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column1 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression1 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table1 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column2 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression2 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column3 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression3 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column4 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression4 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column5 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression5 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column6 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression6 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column7 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression7 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column8 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression8 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column9 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression9 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column10 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression10 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column11 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression11 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column12 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression12 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column13 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression13 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column14 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression14 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column15 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression15 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column16 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression16 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column17 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression17 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column18 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression18 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView2 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView3 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram4 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView4 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram5 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series5 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView5 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram6 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series6 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView6 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram7 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series7 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView7 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram8 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series8 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView8 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram9 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series9 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView9 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram10 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series10 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView10 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram11 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series11 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView11 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram12 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series12 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView12 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram13 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series13 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView13 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram14 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series14 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView14 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram15 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series15 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView15 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram16 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series16 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView16 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery2 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column19 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression19 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table2 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column20 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression20 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column21 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression21 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column22 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression22 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column23 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression23 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column24 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression24 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column25 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression25 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column26 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression26 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column27 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression27 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column28 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.CustomExpression customExpression1 = new DevExpress.DataAccess.Sql.CustomExpression();
+            DevExpress.DataAccess.Sql.Column column29 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.CustomExpression customExpression2 = new DevExpress.DataAccess.Sql.CustomExpression();
+            DevExpress.DataAccess.Sql.Column column30 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.CustomExpression customExpression3 = new DevExpress.DataAccess.Sql.CustomExpression();
+            DevExpress.DataAccess.Sql.Column column31 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.CustomExpression customExpression4 = new DevExpress.DataAccess.Sql.CustomExpression();
+            DevExpress.DataAccess.Sql.Column column32 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression28 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Sorting sorting1 = new DevExpress.DataAccess.Sql.Sorting();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression29 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.XtraCharts.XYDiagram xyDiagram17 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series17 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series18 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series19 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series20 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series21 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series22 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery3 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column33 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.CustomExpression customExpression5 = new DevExpress.DataAccess.Sql.CustomExpression();
+            DevExpress.DataAccess.Sql.Column column34 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression30 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table3 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column35 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression31 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column36 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression32 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column37 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression33 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column38 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression34 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column39 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression35 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Sorting sorting2 = new DevExpress.DataAccess.Sql.Sorting();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression36 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.XtraCharts.XYDiagram xyDiagram18 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series23 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.PointSeriesLabel pointSeriesLabel1 = new DevExpress.XtraCharts.PointSeriesLabel();
+            DevExpress.XtraCharts.StackedAreaSeriesView stackedAreaSeriesView17 = new DevExpress.XtraCharts.StackedAreaSeriesView();
+            DevExpress.XtraCharts.ChartTitle chartTitle2 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery1 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
+            DevExpress.XtraCharts.SwiftPlotDiagram swiftPlotDiagram1 = new DevExpress.XtraCharts.SwiftPlotDiagram();
+            DevExpress.XtraCharts.Series series24 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.SwiftPointSeriesView swiftPointSeriesView1 = new DevExpress.XtraCharts.SwiftPointSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram19 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series25 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.AreaSeriesView areaSeriesView1 = new DevExpress.XtraCharts.AreaSeriesView();
+            DevExpress.XtraCharts.Series series26 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.AreaSeriesView areaSeriesView2 = new DevExpress.XtraCharts.AreaSeriesView();
+            DevExpress.XtraCharts.Series series27 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.AreaSeriesView areaSeriesView3 = new DevExpress.XtraCharts.AreaSeriesView();
+            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram20 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series28 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.SeriesPoint seriesPoint1 = new DevExpress.XtraCharts.SeriesPoint("CUP使用率", new object[] {
             ((object)(0D))});
-            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView3 = new DevExpress.XtraCharts.StackedBarSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle12 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView1 = new DevExpress.XtraCharts.StackedBarSeriesView();
+            DevExpress.XtraCharts.ChartTitle chartTitle4 = new DevExpress.XtraCharts.ChartTitle();
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
@@ -254,6 +254,7 @@
             this.barButtonItem43 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem44 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem45 = new DevExpress.XtraBars.BarButtonItem();
+            this.barToggleSwitchItem5 = new DevExpress.XtraBars.BarToggleSwitchItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -267,14 +268,16 @@
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.tabPane1 = new DevExpress.XtraBars.Navigation.TabPane();
-            this.tabNavigationPage1 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.tabPane1 = new DevExpress.XtraBars.Navigation.NavigationFrame();
+            this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.tabNavigationPage2 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.chartControl19 = new DevExpress.XtraCharts.ChartControl();
             this.a3_object_manipulation_numBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -349,12 +352,12 @@
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.tabNavigationPage3 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.tabNavigationPage4 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.tabNavigationPage5 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
@@ -371,43 +374,11 @@
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
             this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
-            this.tabNavigationPage6 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage6 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.tabNavigationPage8 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
-            this.gridControl5 = new DevExpress.XtraGrid.GridControl();
-            this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.layoutControlGroup7 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.tabNavigationPage9 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.toggleSwitch4 = new DevExpress.XtraEditors.ToggleSwitch();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.toggleSwitch3 = new DevExpress.XtraEditors.ToggleSwitch();
-            this.spinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
-            this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
-            this.layoutControlGroup6 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlItem26 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.layoutControlItem27 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem28 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem29 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem30 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem31 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem32 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.tabNavigationPage7 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.navigationPage7 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.layoutControl4 = new DevExpress.XtraLayout.LayoutControl();
-            this.toggleSwitch2 = new DevExpress.XtraEditors.ToggleSwitch();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.layoutControl5 = new DevExpress.XtraLayout.LayoutControl();
             this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
@@ -454,7 +425,37 @@
             this.layoutControlItem33 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem34 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem35 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem54 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.navigationPage8 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
+            this.gridControl5 = new DevExpress.XtraGrid.GridControl();
+            this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.layoutControlGroup7 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.navigationPage9 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.toggleSwitch4 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.toggleSwitch3 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.spinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.layoutControlGroup6 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem26 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem27 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem28 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem29 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem30 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem31 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem32 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.a3_player_infoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.a3_player_infoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -473,102 +474,102 @@
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
-            this.tabNavigationPage1.SuspendLayout();
+            this.navigationPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            this.tabNavigationPage2.SuspendLayout();
+            this.navigationPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_object_manipulation_numBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series79)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.queryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(swiftPlotDiagram3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series80)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(swiftPointSeriesView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(swiftPlotDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(swiftPointSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedControlGroup1)).BeginInit();
@@ -598,53 +599,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            this.tabNavigationPage3.SuspendLayout();
+            this.navigationPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            this.tabNavigationPage4.SuspendLayout();
+            this.navigationPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            this.tabNavigationPage5.SuspendLayout();
+            this.navigationPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
-            this.tabNavigationPage6.SuspendLayout();
+            this.navigationPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
-            this.tabNavigationPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).BeginInit();
-            this.layoutControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            this.tabNavigationPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
-            this.layoutControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
-            this.tabNavigationPage7.SuspendLayout();
+            this.navigationPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).BeginInit();
             this.layoutControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl5)).BeginInit();
@@ -670,22 +638,53 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem52)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem53)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series81)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series83)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series84)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem54)).BeginInit();
+            this.navigationPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).BeginInit();
+            this.layoutControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
+            this.navigationPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
+            this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
+            this.layoutControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu2)).BeginInit();
@@ -697,10 +696,10 @@
             // 
             // ribbon
             // 
+            this.ribbon.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(30, 25, 30, 25);
             this.ribbon.ExpandCollapseItem.Id = 0;
             this.ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbon.ExpandCollapseItem,
-            this.ribbon.SearchEditItem,
             this.barButtonItem1,
             this.barStaticItem1,
             this.barButtonItem7,
@@ -753,20 +752,22 @@
             this.barButtonItem42,
             this.barButtonItem43,
             this.barButtonItem44,
-            this.barButtonItem45});
+            this.barButtonItem45,
+            this.barToggleSwitchItem5});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
             this.ribbon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ribbon.MaxItemId = 69;
+            this.ribbon.MaxItemId = 70;
             this.ribbon.Name = "ribbon";
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage2,
-            this.ribbonPage3});
+            this.ribbonPage3,
+            this.ribbonPage4});
             this.ribbon.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemRadioGroup1,
             this.repositoryItemRadioGroup2,
             this.repositoryItemProgressBar1});
-            this.ribbon.Size = new System.Drawing.Size(1924, 225);
+            this.ribbon.Size = new System.Drawing.Size(1924, 257);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.SelectedPageChanging += new DevExpress.XtraBars.Ribbon.RibbonPageChangingEventHandler(this.ribbon_SelectedPageChanging);
             this.ribbon.SelectedPageChanged += new System.EventHandler(this.ribbon_SelectedPageChanged);
@@ -1191,6 +1192,12 @@
             this.barButtonItem45.Name = "barButtonItem45";
             this.barButtonItem45.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem45_ItemClick);
             // 
+            // barToggleSwitchItem5
+            // 
+            this.barToggleSwitchItem5.Caption = "启用监控:";
+            this.barToggleSwitchItem5.Id = 69;
+            this.barToggleSwitchItem5.Name = "barToggleSwitchItem5";
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -1291,6 +1298,20 @@
             this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem37);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             // 
+            // ribbonPage4
+            // 
+            this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup11});
+            this.ribbonPage4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ribbonPage4.ImageOptions.SvgImage")));
+            this.ribbonPage4.Name = "ribbonPage4";
+            this.ribbonPage4.Tag = 3;
+            this.ribbonPage4.Text = "进程信息";
+            // 
+            // ribbonPageGroup11
+            // 
+            this.ribbonPageGroup11.ItemLinks.Add(this.barToggleSwitchItem5);
+            this.ribbonPageGroup11.Name = "ribbonPageGroup11";
+            // 
             // ribbonStatusBar
             // 
             this.ribbonStatusBar.ItemLinks.Add(this.barStaticItem2);
@@ -1300,11 +1321,11 @@
             this.ribbonStatusBar.ItemLinks.Add(this.barStaticItem4);
             this.ribbonStatusBar.ItemLinks.Add(this.barStaticItem8);
             this.ribbonStatusBar.ItemLinks.Add(this.barStaticItem5);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 859);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 693);
             this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1924, 36);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1924, 44);
             // 
             // popupMenu1
             // 
@@ -1313,42 +1334,39 @@
             // 
             // tabPane1
             // 
-            this.tabPane1.Controls.Add(this.tabNavigationPage1);
-            this.tabPane1.Controls.Add(this.tabNavigationPage2);
-            this.tabPane1.Controls.Add(this.tabNavigationPage3);
-            this.tabPane1.Controls.Add(this.tabNavigationPage4);
-            this.tabPane1.Controls.Add(this.tabNavigationPage5);
-            this.tabPane1.Controls.Add(this.tabNavigationPage6);
-            this.tabPane1.Controls.Add(this.tabNavigationPage8);
-            this.tabPane1.Controls.Add(this.tabNavigationPage9);
-            this.tabPane1.Controls.Add(this.tabNavigationPage7);
+            this.tabPane1.Controls.Add(this.navigationPage1);
+            this.tabPane1.Controls.Add(this.navigationPage2);
+            this.tabPane1.Controls.Add(this.navigationPage3);
+            this.tabPane1.Controls.Add(this.navigationPage4);
+            this.tabPane1.Controls.Add(this.navigationPage5);
+            this.tabPane1.Controls.Add(this.navigationPage6);
+            this.tabPane1.Controls.Add(this.navigationPage7);
+            this.tabPane1.Controls.Add(this.navigationPage8);
+            this.tabPane1.Controls.Add(this.navigationPage9);
             this.tabPane1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabPane1.Location = new System.Drawing.Point(0, 225);
+            this.tabPane1.Location = new System.Drawing.Point(0, 257);
             this.tabPane1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPane1.Name = "tabPane1";
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
-            this.tabNavigationPage1,
-            this.tabNavigationPage2,
-            this.tabNavigationPage3,
-            this.tabNavigationPage4,
-            this.tabNavigationPage5,
-            this.tabNavigationPage6,
-            this.tabNavigationPage8,
-            this.tabNavigationPage9,
-            this.tabNavigationPage7});
-            this.tabPane1.RegularSize = new System.Drawing.Size(1924, 634);
-            this.tabPane1.SelectedPage = this.tabNavigationPage7;
-            this.tabPane1.Size = new System.Drawing.Size(1924, 634);
+            this.navigationPage1,
+            this.navigationPage2,
+            this.navigationPage3,
+            this.navigationPage4,
+            this.navigationPage5,
+            this.navigationPage6,
+            this.navigationPage7,
+            this.navigationPage8,
+            this.navigationPage9});
+            this.tabPane1.SelectedPage = this.navigationPage1;
+            this.tabPane1.Size = new System.Drawing.Size(1924, 436);
             this.tabPane1.TabIndex = 2;
             this.tabPane1.Text = "tabPane1";
             // 
-            // tabNavigationPage1
+            // navigationPage1
             // 
-            this.tabNavigationPage1.Caption = "玩家列表";
-            this.tabNavigationPage1.Controls.Add(this.groupControl1);
-            this.tabNavigationPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage1.Name = "tabNavigationPage1";
-            this.tabNavigationPage1.Size = new System.Drawing.Size(1924, 601);
+            this.navigationPage1.Controls.Add(this.groupControl1);
+            this.navigationPage1.Name = "navigationPage1";
+            this.navigationPage1.Size = new System.Drawing.Size(1924, 436);
             // 
             // groupControl1
             // 
@@ -1357,7 +1375,7 @@
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(1924, 601);
+            this.groupControl1.Size = new System.Drawing.Size(1924, 436);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "玩家列表";
             // 
@@ -1365,11 +1383,11 @@
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gridControl1.Location = new System.Drawing.Point(2, 23);
+            this.gridControl1.Location = new System.Drawing.Point(2, 29);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1920, 576);
+            this.gridControl1.Size = new System.Drawing.Size(1920, 405);
             this.gridControl1.TabIndex = 5;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -1377,17 +1395,16 @@
             // 
             // gridView1
             // 
+            this.gridView1.DetailHeight = 288;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gridView1_PopupMenuShowing);
             // 
-            // tabNavigationPage2
+            // navigationPage2
             // 
-            this.tabNavigationPage2.Caption = "统计信息";
-            this.tabNavigationPage2.Controls.Add(this.layoutControl1);
-            this.tabNavigationPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(1924, 601);
+            this.navigationPage2.Controls.Add(this.layoutControl1);
+            this.navigationPage2.Name = "navigationPage2";
+            this.navigationPage2.Size = new System.Drawing.Size(1924, 436);
             // 
             // layoutControl1
             // 
@@ -1420,29 +1437,32 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(846, 513, 650, 400);
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1924, 601);
+            this.layoutControl1.Size = new System.Drawing.Size(1924, 436);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // chartControl19
             // 
             this.chartControl19.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram41.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram41.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram41.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram41.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl19.Diagram = xyDiagram41;
-            this.chartControl19.Location = new System.Drawing.Point(494, 477);
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram1.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl19.Diagram = xyDiagram1;
+            this.chartControl19.Legend.LegendID = -1;
+            this.chartControl19.Location = new System.Drawing.Point(498, 343);
+            this.chartControl19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl19.Name = "chartControl19";
-            series57.ArgumentDataMember = "create_time";
-            series57.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series57.Name = "所有对象";
-            series57.ValueDataMembersSerializable = "all_mission_objects";
-            stackedAreaSeriesView35.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series57.View = stackedAreaSeriesView35;
+            series1.ArgumentDataMember = "create_time";
+            series1.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series1.Name = "所有对象";
+            series1.SeriesID = 0;
+            series1.ValueDataMembersSerializable = "all_mission_objects";
+            stackedAreaSeriesView1.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series1.View = stackedAreaSeriesView1;
             this.chartControl19.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series57};
-            this.chartControl19.Size = new System.Drawing.Size(467, 104);
+        series1};
+            this.chartControl19.Size = new System.Drawing.Size(462, 66);
             this.chartControl19.TabIndex = 25;
             // 
             // a3_object_manipulation_numBindingSource
@@ -1454,84 +1474,84 @@
             // 
             this.sqlDataSource1.ConnectionName = "destiny_statistics";
             this.sqlDataSource1.Name = "sqlDataSource1";
-            columnExpression73.ColumnName = "all_player";
-            table7.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"504.666656\" />";
-            table7.Name = "a3_object_manipulation_num";
-            columnExpression73.Table = table7;
-            column79.Expression = columnExpression73;
-            columnExpression74.ColumnName = "all_units";
-            columnExpression74.Table = table7;
-            column80.Expression = columnExpression74;
-            columnExpression75.ColumnName = "all_car";
-            columnExpression75.Table = table7;
-            column81.Expression = columnExpression75;
-            columnExpression76.ColumnName = "all_helicopter";
-            columnExpression76.Table = table7;
-            column82.Expression = columnExpression76;
-            columnExpression77.ColumnName = "all_motorcycle";
-            columnExpression77.Table = table7;
-            column83.Expression = columnExpression77;
-            columnExpression78.ColumnName = "all_plane";
-            columnExpression78.Table = table7;
-            column84.Expression = columnExpression78;
-            columnExpression79.ColumnName = "all_ship";
-            columnExpression79.Table = table7;
-            column85.Expression = columnExpression79;
-            columnExpression80.ColumnName = "all_static_weapon";
-            columnExpression80.Table = table7;
-            column86.Expression = columnExpression80;
-            columnExpression81.ColumnName = "all_apc";
-            columnExpression81.Table = table7;
-            column87.Expression = columnExpression81;
-            columnExpression82.ColumnName = "all_tank";
-            columnExpression82.Table = table7;
-            column88.Expression = columnExpression82;
-            columnExpression83.ColumnName = "all_units_uav";
-            columnExpression83.Table = table7;
-            column89.Expression = columnExpression83;
-            columnExpression84.ColumnName = "all_mission_objects";
-            columnExpression84.Table = table7;
-            column90.Expression = columnExpression84;
-            columnExpression85.ColumnName = "all_dead_men";
-            columnExpression85.Table = table7;
-            column91.Expression = columnExpression85;
-            columnExpression86.ColumnName = "all_groups";
-            columnExpression86.Table = table7;
-            column92.Expression = columnExpression86;
-            columnExpression87.ColumnName = "all_mines";
-            columnExpression87.Table = table7;
-            column93.Expression = columnExpression87;
-            columnExpression88.ColumnName = "fps";
-            columnExpression88.Table = table7;
-            column94.Expression = columnExpression88;
-            columnExpression89.ColumnName = "fps_min";
-            columnExpression89.Table = table7;
-            column95.Expression = columnExpression89;
-            columnExpression90.ColumnName = "create_time";
-            columnExpression90.Table = table7;
-            column96.Expression = columnExpression90;
-            selectQuery7.Columns.Add(column79);
-            selectQuery7.Columns.Add(column80);
-            selectQuery7.Columns.Add(column81);
-            selectQuery7.Columns.Add(column82);
-            selectQuery7.Columns.Add(column83);
-            selectQuery7.Columns.Add(column84);
-            selectQuery7.Columns.Add(column85);
-            selectQuery7.Columns.Add(column86);
-            selectQuery7.Columns.Add(column87);
-            selectQuery7.Columns.Add(column88);
-            selectQuery7.Columns.Add(column89);
-            selectQuery7.Columns.Add(column90);
-            selectQuery7.Columns.Add(column91);
-            selectQuery7.Columns.Add(column92);
-            selectQuery7.Columns.Add(column93);
-            selectQuery7.Columns.Add(column94);
-            selectQuery7.Columns.Add(column95);
-            selectQuery7.Columns.Add(column96);
-            selectQuery7.Name = "a3_object_manipulation_num";
-            selectQuery7.Tables.Add(table7);
+            columnExpression1.ColumnName = "all_player";
+            table1.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"504.666656\" />";
+            table1.Name = "a3_object_manipulation_num";
+            columnExpression1.Table = table1;
+            column1.Expression = columnExpression1;
+            columnExpression2.ColumnName = "all_units";
+            columnExpression2.Table = table1;
+            column2.Expression = columnExpression2;
+            columnExpression3.ColumnName = "all_car";
+            columnExpression3.Table = table1;
+            column3.Expression = columnExpression3;
+            columnExpression4.ColumnName = "all_helicopter";
+            columnExpression4.Table = table1;
+            column4.Expression = columnExpression4;
+            columnExpression5.ColumnName = "all_motorcycle";
+            columnExpression5.Table = table1;
+            column5.Expression = columnExpression5;
+            columnExpression6.ColumnName = "all_plane";
+            columnExpression6.Table = table1;
+            column6.Expression = columnExpression6;
+            columnExpression7.ColumnName = "all_ship";
+            columnExpression7.Table = table1;
+            column7.Expression = columnExpression7;
+            columnExpression8.ColumnName = "all_static_weapon";
+            columnExpression8.Table = table1;
+            column8.Expression = columnExpression8;
+            columnExpression9.ColumnName = "all_apc";
+            columnExpression9.Table = table1;
+            column9.Expression = columnExpression9;
+            columnExpression10.ColumnName = "all_tank";
+            columnExpression10.Table = table1;
+            column10.Expression = columnExpression10;
+            columnExpression11.ColumnName = "all_units_uav";
+            columnExpression11.Table = table1;
+            column11.Expression = columnExpression11;
+            columnExpression12.ColumnName = "all_mission_objects";
+            columnExpression12.Table = table1;
+            column12.Expression = columnExpression12;
+            columnExpression13.ColumnName = "all_dead_men";
+            columnExpression13.Table = table1;
+            column13.Expression = columnExpression13;
+            columnExpression14.ColumnName = "all_groups";
+            columnExpression14.Table = table1;
+            column14.Expression = columnExpression14;
+            columnExpression15.ColumnName = "all_mines";
+            columnExpression15.Table = table1;
+            column15.Expression = columnExpression15;
+            columnExpression16.ColumnName = "fps";
+            columnExpression16.Table = table1;
+            column16.Expression = columnExpression16;
+            columnExpression17.ColumnName = "fps_min";
+            columnExpression17.Table = table1;
+            column17.Expression = columnExpression17;
+            columnExpression18.ColumnName = "create_time";
+            columnExpression18.Table = table1;
+            column18.Expression = columnExpression18;
+            selectQuery1.Columns.Add(column1);
+            selectQuery1.Columns.Add(column2);
+            selectQuery1.Columns.Add(column3);
+            selectQuery1.Columns.Add(column4);
+            selectQuery1.Columns.Add(column5);
+            selectQuery1.Columns.Add(column6);
+            selectQuery1.Columns.Add(column7);
+            selectQuery1.Columns.Add(column8);
+            selectQuery1.Columns.Add(column9);
+            selectQuery1.Columns.Add(column10);
+            selectQuery1.Columns.Add(column11);
+            selectQuery1.Columns.Add(column12);
+            selectQuery1.Columns.Add(column13);
+            selectQuery1.Columns.Add(column14);
+            selectQuery1.Columns.Add(column15);
+            selectQuery1.Columns.Add(column16);
+            selectQuery1.Columns.Add(column17);
+            selectQuery1.Columns.Add(column18);
+            selectQuery1.Name = "a3_object_manipulation_num";
+            selectQuery1.Tables.Add(table1);
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            selectQuery7});
+            selectQuery1});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
             this.sqlDataSource1.CustomizeFilterExpression += new DevExpress.DataAccess.Sql.CustomizeFilterExpressionEventHandler(this.sqlDataSource1_CustomizeFilterExpression);
             this.sqlDataSource1.ConfigureDataConnection += new DevExpress.DataAccess.Sql.ConfigureDataConnectionEventHandler(this.sqlDataSource1_ConfigureDataConnection);
@@ -1540,328 +1560,373 @@
             // chartControl18
             // 
             this.chartControl18.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram42.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram42.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram42.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram42.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl18.Diagram = xyDiagram42;
-            this.chartControl18.Location = new System.Drawing.Point(494, 364);
+            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram2.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram2.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl18.Diagram = xyDiagram2;
+            this.chartControl18.Legend.LegendID = -1;
+            this.chartControl18.Location = new System.Drawing.Point(498, 267);
+            this.chartControl18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl18.Name = "chartControl18";
-            series58.ArgumentDataMember = "create_time";
-            series58.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series58.Name = "所有战机";
-            series58.ValueDataMembersSerializable = "all_plane";
-            stackedAreaSeriesView36.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series58.View = stackedAreaSeriesView36;
+            series2.ArgumentDataMember = "create_time";
+            series2.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series2.Name = "所有战机";
+            series2.SeriesID = 0;
+            series2.ValueDataMembersSerializable = "all_plane";
+            stackedAreaSeriesView2.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series2.View = stackedAreaSeriesView2;
             this.chartControl18.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series58};
-            this.chartControl18.Size = new System.Drawing.Size(467, 109);
+        series2};
+            this.chartControl18.Size = new System.Drawing.Size(462, 70);
             this.chartControl18.TabIndex = 24;
             // 
             // chartControl17
             // 
             this.chartControl17.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram43.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram43.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram43.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram43.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl17.Diagram = xyDiagram43;
-            this.chartControl17.Location = new System.Drawing.Point(494, 256);
+            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram3.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram3.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl17.Diagram = xyDiagram3;
+            this.chartControl17.Legend.LegendID = -1;
+            this.chartControl17.Location = new System.Drawing.Point(498, 197);
+            this.chartControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl17.Name = "chartControl17";
-            series59.ArgumentDataMember = "create_time";
-            series59.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series59.Name = "所有尸体";
-            series59.ValueDataMembersSerializable = "all_dead_men";
-            stackedAreaSeriesView37.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series59.View = stackedAreaSeriesView37;
+            series3.ArgumentDataMember = "create_time";
+            series3.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series3.Name = "所有尸体";
+            series3.SeriesID = 0;
+            series3.ValueDataMembersSerializable = "all_dead_men";
+            stackedAreaSeriesView3.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series3.View = stackedAreaSeriesView3;
             this.chartControl17.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series59};
-            this.chartControl17.Size = new System.Drawing.Size(467, 104);
+        series3};
+            this.chartControl17.Size = new System.Drawing.Size(462, 64);
             this.chartControl17.TabIndex = 23;
             // 
             // chartControl16
             // 
             this.chartControl16.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram44.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram44.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram44.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram44.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl16.Diagram = xyDiagram44;
-            this.chartControl16.Location = new System.Drawing.Point(494, 156);
+            xyDiagram4.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram4.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram4.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram4.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl16.Diagram = xyDiagram4;
+            this.chartControl16.Legend.LegendID = -1;
+            this.chartControl16.Location = new System.Drawing.Point(498, 130);
+            this.chartControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl16.Name = "chartControl16";
-            series60.ArgumentDataMember = "create_time";
-            series60.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series60.Name = "所有摩托";
-            series60.ValueDataMembersSerializable = "all_motorcycle";
-            stackedAreaSeriesView38.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series60.View = stackedAreaSeriesView38;
+            series4.ArgumentDataMember = "create_time";
+            series4.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series4.Name = "所有摩托";
+            series4.SeriesID = 0;
+            series4.ValueDataMembersSerializable = "all_motorcycle";
+            stackedAreaSeriesView4.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series4.View = stackedAreaSeriesView4;
             this.chartControl16.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series60};
-            this.chartControl16.Size = new System.Drawing.Size(467, 96);
+        series4};
+            this.chartControl16.Size = new System.Drawing.Size(462, 61);
             this.chartControl16.TabIndex = 22;
             // 
             // chartControl15
             // 
             this.chartControl15.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram45.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram45.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram45.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram45.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl15.Diagram = xyDiagram45;
-            this.chartControl15.Location = new System.Drawing.Point(1436, 477);
+            xyDiagram5.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram5.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram5.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram5.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl15.Diagram = xyDiagram5;
+            this.chartControl15.Legend.LegendID = -1;
+            this.chartControl15.Location = new System.Drawing.Point(1434, 343);
+            this.chartControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl15.Name = "chartControl15";
-            series61.ArgumentDataMember = "create_time";
-            series61.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series61.Name = "最小FPS";
-            series61.ValueDataMembersSerializable = "fps_min";
-            stackedAreaSeriesView39.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series61.View = stackedAreaSeriesView39;
+            series5.ArgumentDataMember = "create_time";
+            series5.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series5.Name = "最小FPS";
+            series5.SeriesID = 0;
+            series5.ValueDataMembersSerializable = "fps_min";
+            stackedAreaSeriesView5.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series5.View = stackedAreaSeriesView5;
             this.chartControl15.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series61};
-            this.chartControl15.Size = new System.Drawing.Size(468, 104);
+        series5};
+            this.chartControl15.Size = new System.Drawing.Size(463, 66);
             this.chartControl15.TabIndex = 21;
             // 
             // chartControl14
             // 
             this.chartControl14.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram46.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram46.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram46.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram46.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl14.Diagram = xyDiagram46;
-            this.chartControl14.Location = new System.Drawing.Point(1436, 364);
+            xyDiagram6.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram6.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram6.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram6.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl14.Diagram = xyDiagram6;
+            this.chartControl14.Legend.LegendID = -1;
+            this.chartControl14.Location = new System.Drawing.Point(1434, 267);
+            this.chartControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl14.Name = "chartControl14";
-            series62.ArgumentDataMember = "create_time";
-            series62.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series62.Name = "最大FPS";
-            series62.ValueDataMembersSerializable = "fps";
-            stackedAreaSeriesView40.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series62.View = stackedAreaSeriesView40;
+            series6.ArgumentDataMember = "create_time";
+            series6.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series6.Name = "最大FPS";
+            series6.SeriesID = 0;
+            series6.ValueDataMembersSerializable = "fps";
+            stackedAreaSeriesView6.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series6.View = stackedAreaSeriesView6;
             this.chartControl14.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series62};
-            this.chartControl14.Size = new System.Drawing.Size(468, 109);
+        series6};
+            this.chartControl14.Size = new System.Drawing.Size(463, 70);
             this.chartControl14.TabIndex = 20;
             // 
             // chartControl13
             // 
             this.chartControl13.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram47.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram47.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram47.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram47.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl13.Diagram = xyDiagram47;
-            this.chartControl13.Location = new System.Drawing.Point(1436, 256);
+            xyDiagram7.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram7.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram7.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram7.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl13.Diagram = xyDiagram7;
+            this.chartControl13.Legend.LegendID = -1;
+            this.chartControl13.Location = new System.Drawing.Point(1434, 197);
+            this.chartControl13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl13.Name = "chartControl13";
-            series63.ArgumentDataMember = "create_time";
-            series63.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series63.Name = "所有单位";
-            series63.ValueDataMembersSerializable = "all_units";
-            stackedAreaSeriesView41.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series63.View = stackedAreaSeriesView41;
+            series7.ArgumentDataMember = "create_time";
+            series7.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series7.Name = "所有单位";
+            series7.SeriesID = 0;
+            series7.ValueDataMembersSerializable = "all_units";
+            stackedAreaSeriesView7.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series7.View = stackedAreaSeriesView7;
             this.chartControl13.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series63};
-            this.chartControl13.Size = new System.Drawing.Size(468, 104);
+        series7};
+            this.chartControl13.Size = new System.Drawing.Size(463, 64);
             this.chartControl13.TabIndex = 19;
             // 
             // chartControl12
             // 
             this.chartControl12.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram48.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram48.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram48.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram48.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl12.Diagram = xyDiagram48;
-            this.chartControl12.Location = new System.Drawing.Point(1436, 156);
+            xyDiagram8.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram8.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram8.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram8.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl12.Diagram = xyDiagram8;
+            this.chartControl12.Legend.LegendID = -1;
+            this.chartControl12.Location = new System.Drawing.Point(1434, 130);
+            this.chartControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl12.Name = "chartControl12";
-            series64.ArgumentDataMember = "create_time";
-            series64.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series64.Name = "所有APC";
-            series64.ValueDataMembersSerializable = "all_apc";
-            stackedAreaSeriesView42.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series64.View = stackedAreaSeriesView42;
+            series8.ArgumentDataMember = "create_time";
+            series8.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series8.Name = "所有APC";
+            series8.SeriesID = 0;
+            series8.ValueDataMembersSerializable = "all_apc";
+            stackedAreaSeriesView8.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series8.View = stackedAreaSeriesView8;
             this.chartControl12.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series64};
-            this.chartControl12.Size = new System.Drawing.Size(468, 96);
+        series8};
+            this.chartControl12.Size = new System.Drawing.Size(463, 61);
             this.chartControl12.TabIndex = 18;
             // 
             // chartControl11
             // 
             this.chartControl11.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram49.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram49.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram49.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram49.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl11.Diagram = xyDiagram49;
-            this.chartControl11.Location = new System.Drawing.Point(965, 477);
+            xyDiagram9.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram9.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram9.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram9.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl11.Diagram = xyDiagram9;
+            this.chartControl11.Legend.LegendID = -1;
+            this.chartControl11.Location = new System.Drawing.Point(966, 343);
+            this.chartControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl11.Name = "chartControl11";
-            series65.ArgumentDataMember = "create_time";
-            series65.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series65.Name = "所有坦克";
-            series65.ValueDataMembersSerializable = "all_tank";
-            stackedAreaSeriesView43.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series65.View = stackedAreaSeriesView43;
+            series9.ArgumentDataMember = "create_time";
+            series9.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series9.Name = "所有坦克";
+            series9.SeriesID = 0;
+            series9.ValueDataMembersSerializable = "all_tank";
+            stackedAreaSeriesView9.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series9.View = stackedAreaSeriesView9;
             this.chartControl11.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series65};
-            this.chartControl11.Size = new System.Drawing.Size(467, 104);
+        series9};
+            this.chartControl11.Size = new System.Drawing.Size(462, 66);
             this.chartControl11.TabIndex = 17;
             // 
             // chartControl10
             // 
             this.chartControl10.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram50.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram50.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram50.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram50.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl10.Diagram = xyDiagram50;
-            this.chartControl10.Location = new System.Drawing.Point(965, 364);
+            xyDiagram10.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram10.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram10.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram10.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl10.Diagram = xyDiagram10;
+            this.chartControl10.Legend.LegendID = -1;
+            this.chartControl10.Location = new System.Drawing.Point(966, 267);
+            this.chartControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl10.Name = "chartControl10";
-            series66.ArgumentDataMember = "create_time";
-            series66.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series66.Name = "静态武器";
-            series66.ValueDataMembersSerializable = "all_static_weapon";
-            stackedAreaSeriesView44.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series66.View = stackedAreaSeriesView44;
+            series10.ArgumentDataMember = "create_time";
+            series10.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series10.Name = "静态武器";
+            series10.SeriesID = 0;
+            series10.ValueDataMembersSerializable = "all_static_weapon";
+            stackedAreaSeriesView10.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series10.View = stackedAreaSeriesView10;
             this.chartControl10.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series66};
-            this.chartControl10.Size = new System.Drawing.Size(467, 109);
+        series10};
+            this.chartControl10.Size = new System.Drawing.Size(462, 70);
             this.chartControl10.TabIndex = 16;
             // 
             // chartControl9
             // 
             this.chartControl9.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram51.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram51.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram51.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram51.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl9.Diagram = xyDiagram51;
-            this.chartControl9.Location = new System.Drawing.Point(24, 477);
+            xyDiagram11.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram11.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram11.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram11.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl9.Diagram = xyDiagram11;
+            this.chartControl9.Legend.LegendID = -1;
+            this.chartControl9.Location = new System.Drawing.Point(31, 343);
+            this.chartControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl9.Name = "chartControl9";
-            series67.ArgumentDataMember = "create_time";
-            series67.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series67.Name = "所有小组";
-            series67.ValueDataMembersSerializable = "all_groups";
-            stackedAreaSeriesView45.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series67.View = stackedAreaSeriesView45;
+            series11.ArgumentDataMember = "create_time";
+            series11.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series11.Name = "所有小组";
+            series11.SeriesID = 0;
+            series11.ValueDataMembersSerializable = "all_groups";
+            stackedAreaSeriesView11.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series11.View = stackedAreaSeriesView11;
             this.chartControl9.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series67};
-            this.chartControl9.Size = new System.Drawing.Size(466, 104);
+        series11};
+            this.chartControl9.Size = new System.Drawing.Size(461, 66);
             this.chartControl9.TabIndex = 15;
             // 
             // chartControl8
             // 
             this.chartControl8.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram52.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram52.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram52.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram52.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl8.Diagram = xyDiagram52;
-            this.chartControl8.Location = new System.Drawing.Point(24, 364);
+            xyDiagram12.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram12.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram12.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram12.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl8.Diagram = xyDiagram12;
+            this.chartControl8.Legend.LegendID = -1;
+            this.chartControl8.Location = new System.Drawing.Point(31, 267);
+            this.chartControl8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl8.Name = "chartControl8";
-            series68.ArgumentDataMember = "create_time";
-            series68.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series68.Name = "所有旋翼";
-            series68.ValueDataMembersSerializable = "all_helicopter";
-            stackedAreaSeriesView46.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series68.View = stackedAreaSeriesView46;
+            series12.ArgumentDataMember = "create_time";
+            series12.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series12.Name = "所有旋翼";
+            series12.SeriesID = 0;
+            series12.ValueDataMembersSerializable = "all_helicopter";
+            stackedAreaSeriesView12.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series12.View = stackedAreaSeriesView12;
             this.chartControl8.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series68};
-            this.chartControl8.Size = new System.Drawing.Size(466, 109);
+        series12};
+            this.chartControl8.Size = new System.Drawing.Size(461, 70);
             this.chartControl8.TabIndex = 14;
             // 
             // chartControl7
             // 
             this.chartControl7.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram53.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram53.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram53.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram53.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl7.Diagram = xyDiagram53;
-            this.chartControl7.Location = new System.Drawing.Point(965, 256);
+            xyDiagram13.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram13.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram13.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram13.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl7.Diagram = xyDiagram13;
+            this.chartControl7.Legend.LegendID = -1;
+            this.chartControl7.Location = new System.Drawing.Point(966, 197);
+            this.chartControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl7.Name = "chartControl7";
-            series69.ArgumentDataMember = "create_time";
-            series69.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series69.Name = "所有地雷";
-            series69.ValueDataMembersSerializable = "all_mines";
-            stackedAreaSeriesView47.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series69.View = stackedAreaSeriesView47;
+            series13.ArgumentDataMember = "create_time";
+            series13.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series13.Name = "所有地雷";
+            series13.SeriesID = 0;
+            series13.ValueDataMembersSerializable = "all_mines";
+            stackedAreaSeriesView13.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series13.View = stackedAreaSeriesView13;
             this.chartControl7.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series69};
-            this.chartControl7.Size = new System.Drawing.Size(467, 104);
+        series13};
+            this.chartControl7.Size = new System.Drawing.Size(462, 64);
             this.chartControl7.TabIndex = 13;
             // 
             // chartControl6
             // 
             this.chartControl6.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram54.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram54.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram54.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram54.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl6.Diagram = xyDiagram54;
-            this.chartControl6.Location = new System.Drawing.Point(24, 256);
+            xyDiagram14.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram14.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram14.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram14.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl6.Diagram = xyDiagram14;
+            this.chartControl6.Legend.LegendID = -1;
+            this.chartControl6.Location = new System.Drawing.Point(31, 197);
+            this.chartControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl6.Name = "chartControl6";
-            series70.ArgumentDataMember = "create_time";
-            series70.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series70.Name = "所有UAV";
-            series70.ValueDataMembersSerializable = "all_units_uav";
-            stackedAreaSeriesView48.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series70.View = stackedAreaSeriesView48;
+            series14.ArgumentDataMember = "create_time";
+            series14.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series14.Name = "所有UAV";
+            series14.SeriesID = 0;
+            series14.ValueDataMembersSerializable = "all_units_uav";
+            stackedAreaSeriesView14.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series14.View = stackedAreaSeriesView14;
             this.chartControl6.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series70};
-            this.chartControl6.Size = new System.Drawing.Size(466, 104);
+        series14};
+            this.chartControl6.Size = new System.Drawing.Size(461, 64);
             this.chartControl6.TabIndex = 12;
             // 
             // chartControl5
             // 
             this.chartControl5.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram55.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram55.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram55.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram55.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl5.Diagram = xyDiagram55;
-            this.chartControl5.Location = new System.Drawing.Point(965, 156);
+            xyDiagram15.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram15.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram15.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram15.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl5.Diagram = xyDiagram15;
+            this.chartControl5.Legend.LegendID = -1;
+            this.chartControl5.Location = new System.Drawing.Point(966, 130);
+            this.chartControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl5.Name = "chartControl5";
-            series71.ArgumentDataMember = "create_time";
-            series71.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series71.Name = "所有船只";
-            series71.ValueDataMembersSerializable = "all_ship";
-            stackedAreaSeriesView49.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series71.View = stackedAreaSeriesView49;
+            series15.ArgumentDataMember = "create_time";
+            series15.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series15.Name = "所有船只";
+            series15.SeriesID = 0;
+            series15.ValueDataMembersSerializable = "all_ship";
+            stackedAreaSeriesView15.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series15.View = stackedAreaSeriesView15;
             this.chartControl5.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series71};
-            this.chartControl5.Size = new System.Drawing.Size(467, 96);
+        series15};
+            this.chartControl5.Size = new System.Drawing.Size(462, 61);
             this.chartControl5.TabIndex = 11;
             // 
             // chartControl4
             // 
             this.chartControl4.DataSource = this.a3_object_manipulation_numBindingSource;
-            xyDiagram56.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram56.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram56.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram56.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl4.Diagram = xyDiagram56;
-            this.chartControl4.Location = new System.Drawing.Point(24, 156);
+            xyDiagram16.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram16.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram16.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram16.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl4.Diagram = xyDiagram16;
+            this.chartControl4.Legend.LegendID = -1;
+            this.chartControl4.Location = new System.Drawing.Point(31, 130);
+            this.chartControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl4.Name = "chartControl4";
-            series72.ArgumentDataMember = "create_time";
-            series72.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series72.Name = "所有车辆";
-            series72.ValueDataMembersSerializable = "all_car";
-            stackedAreaSeriesView50.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series72.View = stackedAreaSeriesView50;
+            series16.ArgumentDataMember = "create_time";
+            series16.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series16.Name = "所有车辆";
+            series16.SeriesID = 0;
+            series16.ValueDataMembersSerializable = "all_car";
+            stackedAreaSeriesView16.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series16.View = stackedAreaSeriesView16;
             this.chartControl4.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series72};
-            this.chartControl4.Size = new System.Drawing.Size(466, 96);
+        series16};
+            this.chartControl4.Size = new System.Drawing.Size(461, 61);
             this.chartControl4.TabIndex = 10;
             // 
             // gridControl4
             // 
             this.gridControl4.DataSource = this.a3_player_infoBindingSource3;
             this.gridControl4.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gridControl4.Location = new System.Drawing.Point(24, 55);
+            this.gridControl4.Location = new System.Drawing.Point(31, 62);
             this.gridControl4.MainView = this.gridView4;
             this.gridControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridControl4.MenuManager = this.ribbon;
             this.gridControl4.Name = "gridControl4";
-            this.gridControl4.Size = new System.Drawing.Size(1880, 526);
+            this.gridControl4.Size = new System.Drawing.Size(1866, 347);
             this.gridControl4.TabIndex = 9;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
@@ -1876,85 +1941,85 @@
             // 
             this.sqlDataSource4.ConnectionName = "destiny_statistics";
             this.sqlDataSource4.Name = "sqlDataSource4";
-            column97.Alias = "玩家UID";
-            columnExpression91.ColumnName = "player_id";
-            table8.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"344.666656\" />";
-            table8.Name = "a3_player_info";
-            columnExpression91.Table = table8;
-            column97.Expression = columnExpression91;
-            column98.Alias = "玩家昵称";
-            columnExpression92.ColumnName = "player_name";
-            columnExpression92.Table = table8;
-            column98.Expression = columnExpression92;
-            column99.Alias = "步兵击杀";
-            columnExpression93.ColumnName = "infantry_kills";
-            columnExpression93.Table = table8;
-            column99.Expression = columnExpression93;
-            column100.Alias = "软装甲载具击杀";
-            columnExpression94.ColumnName = "soft_vehicle_kills";
-            columnExpression94.Table = table8;
-            column100.Expression = columnExpression94;
-            column101.Alias = "装甲载具击杀";
-            columnExpression95.ColumnName = "armor_kills";
-            columnExpression95.Table = table8;
-            column101.Expression = columnExpression95;
-            column102.Alias = "飞行载具击杀";
-            columnExpression96.ColumnName = "air_kills";
-            columnExpression96.Table = table8;
-            column102.Expression = columnExpression96;
-            column103.Alias = "死亡次数";
-            columnExpression97.ColumnName = "deaths";
-            columnExpression97.Table = table8;
-            column103.Expression = columnExpression97;
-            column104.Alias = "得分";
-            columnExpression98.ColumnName = "total_score";
-            columnExpression98.Table = table8;
-            column104.Expression = columnExpression98;
-            column105.Alias = "当前是否在线";
-            columnExpression99.ColumnName = "online";
-            columnExpression99.Table = table8;
-            column105.Expression = columnExpression99;
-            column106.Alias = "步兵(K/D)";
-            customExpression11.Expression = "IIF([a3_player_info.deaths]>0,ROUND(TODOUBLE([a3_player_info.infantry_kills])/[a3" +
+            column19.Alias = "玩家UID";
+            columnExpression19.ColumnName = "player_id";
+            table2.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"344.666656\" />";
+            table2.Name = "a3_player_info";
+            columnExpression19.Table = table2;
+            column19.Expression = columnExpression19;
+            column20.Alias = "玩家昵称";
+            columnExpression20.ColumnName = "player_name";
+            columnExpression20.Table = table2;
+            column20.Expression = columnExpression20;
+            column21.Alias = "步兵击杀";
+            columnExpression21.ColumnName = "infantry_kills";
+            columnExpression21.Table = table2;
+            column21.Expression = columnExpression21;
+            column22.Alias = "软装甲载具击杀";
+            columnExpression22.ColumnName = "soft_vehicle_kills";
+            columnExpression22.Table = table2;
+            column22.Expression = columnExpression22;
+            column23.Alias = "装甲载具击杀";
+            columnExpression23.ColumnName = "armor_kills";
+            columnExpression23.Table = table2;
+            column23.Expression = columnExpression23;
+            column24.Alias = "飞行载具击杀";
+            columnExpression24.ColumnName = "air_kills";
+            columnExpression24.Table = table2;
+            column24.Expression = columnExpression24;
+            column25.Alias = "死亡次数";
+            columnExpression25.ColumnName = "deaths";
+            columnExpression25.Table = table2;
+            column25.Expression = columnExpression25;
+            column26.Alias = "得分";
+            columnExpression26.ColumnName = "total_score";
+            columnExpression26.Table = table2;
+            column26.Expression = columnExpression26;
+            column27.Alias = "当前是否在线";
+            columnExpression27.ColumnName = "online";
+            columnExpression27.Table = table2;
+            column27.Expression = columnExpression27;
+            column28.Alias = "步兵(K/D)";
+            customExpression1.Expression = "IIF([a3_player_info.deaths]>0,ROUND(TODOUBLE([a3_player_info.infantry_kills])/[a3" +
     "_player_info.deaths],2) , [a3_player_info.infantry_kills])";
-            column106.Expression = customExpression11;
-            column107.Alias = "陆地载具(K/D)";
-            customExpression12.Expression = resources.GetString("customExpression12.Expression");
-            column107.Expression = customExpression12;
-            column108.Alias = "飞行载具(K/D)";
-            customExpression13.Expression = "IIF([a3_player_info.deaths]>0,ROUND(TODOUBLE([a3_player_info.air_kills])/[a3_play" +
+            column28.Expression = customExpression1;
+            column29.Alias = "陆地载具(K/D)";
+            customExpression2.Expression = resources.GetString("customExpression2.Expression");
+            column29.Expression = customExpression2;
+            column30.Alias = "飞行载具(K/D)";
+            customExpression3.Expression = "IIF([a3_player_info.deaths]>0,ROUND(TODOUBLE([a3_player_info.air_kills])/[a3_play" +
     "er_info.deaths],2) , [a3_player_info.air_kills])";
-            column108.Expression = customExpression13;
-            column109.Alias = "全部(K/D)";
-            customExpression14.Expression = resources.GetString("customExpression14.Expression");
-            column109.Expression = customExpression14;
-            column110.Alias = "创建时间";
-            columnExpression100.ColumnName = "create_time";
-            columnExpression100.Table = table8;
-            column110.Expression = columnExpression100;
-            selectQuery8.Columns.Add(column97);
-            selectQuery8.Columns.Add(column98);
-            selectQuery8.Columns.Add(column99);
-            selectQuery8.Columns.Add(column100);
-            selectQuery8.Columns.Add(column101);
-            selectQuery8.Columns.Add(column102);
-            selectQuery8.Columns.Add(column103);
-            selectQuery8.Columns.Add(column104);
-            selectQuery8.Columns.Add(column105);
-            selectQuery8.Columns.Add(column106);
-            selectQuery8.Columns.Add(column107);
-            selectQuery8.Columns.Add(column108);
-            selectQuery8.Columns.Add(column109);
-            selectQuery8.Columns.Add(column110);
-            selectQuery8.Name = "a3_player_info";
-            sorting5.Direction = System.ComponentModel.ListSortDirection.Descending;
-            columnExpression101.ColumnName = "total_score";
-            columnExpression101.Table = table8;
-            sorting5.Expression = columnExpression101;
-            selectQuery8.Sorting.Add(sorting5);
-            selectQuery8.Tables.Add(table8);
+            column30.Expression = customExpression3;
+            column31.Alias = "全部(K/D)";
+            customExpression4.Expression = resources.GetString("customExpression4.Expression");
+            column31.Expression = customExpression4;
+            column32.Alias = "创建时间";
+            columnExpression28.ColumnName = "create_time";
+            columnExpression28.Table = table2;
+            column32.Expression = columnExpression28;
+            selectQuery2.Columns.Add(column19);
+            selectQuery2.Columns.Add(column20);
+            selectQuery2.Columns.Add(column21);
+            selectQuery2.Columns.Add(column22);
+            selectQuery2.Columns.Add(column23);
+            selectQuery2.Columns.Add(column24);
+            selectQuery2.Columns.Add(column25);
+            selectQuery2.Columns.Add(column26);
+            selectQuery2.Columns.Add(column27);
+            selectQuery2.Columns.Add(column28);
+            selectQuery2.Columns.Add(column29);
+            selectQuery2.Columns.Add(column30);
+            selectQuery2.Columns.Add(column31);
+            selectQuery2.Columns.Add(column32);
+            selectQuery2.Name = "a3_player_info";
+            sorting1.Direction = System.ComponentModel.ListSortDirection.Descending;
+            columnExpression29.ColumnName = "total_score";
+            columnExpression29.Table = table2;
+            sorting1.Expression = columnExpression29;
+            selectQuery2.Sorting.Add(sorting1);
+            selectQuery2.Tables.Add(table2);
             this.sqlDataSource4.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            selectQuery8});
+            selectQuery2});
             this.sqlDataSource4.ResultSchemaSerializable = resources.GetString("sqlDataSource4.ResultSchemaSerializable");
             this.sqlDataSource4.ConfigureDataConnection += new DevExpress.DataAccess.Sql.ConfigureDataConnectionEventHandler(this.sqlDataSource4_ConfigureDataConnection);
             // 
@@ -1975,6 +2040,7 @@
             this.gridColumn3,
             this.gridColumn4,
             this.col创建时间});
+            this.gridView4.DetailHeight = 288;
             this.gridView4.GridControl = this.gridControl4;
             this.gridView4.Name = "gridView4";
             // 
@@ -2079,51 +2145,61 @@
             // chartControl3
             // 
             this.chartControl3.DataSource = this.a3_player_infoBindingSource1;
-            xyDiagram57.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram57.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl3.Diagram = xyDiagram57;
-            this.chartControl3.Legend.Title.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            xyDiagram17.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram17.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl3.Diagram = xyDiagram17;
+            this.chartControl3.Legend.LegendID = -1;
+            this.chartControl3.Legend.Title.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 12F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
             this.chartControl3.Legend.Title.Text = "";
-            this.chartControl3.Location = new System.Drawing.Point(24, 55);
+            this.chartControl3.Location = new System.Drawing.Point(31, 62);
             this.chartControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl3.Name = "chartControl3";
-            series73.ArgumentDataMember = "player_name";
-            series73.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series73.Name = "步兵击杀";
-            series73.ValueDataMembersSerializable = "infantry_kills";
-            series74.ArgumentDataMember = "player_name";
-            series74.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series74.Name = "软载具击杀";
-            series74.ValueDataMembersSerializable = "soft_vehicle_kills";
-            series75.ArgumentDataMember = "player_name";
-            series75.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series75.Name = "装甲载具击杀";
-            series75.ValueDataMembersSerializable = "armor_kills";
-            series76.ArgumentDataMember = "player_name";
-            series76.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series76.Name = "飞行载具击杀";
-            series76.ValueDataMembersSerializable = "air_kills";
-            series77.ArgumentDataMember = "player_name";
-            series77.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series77.Name = "死亡次数";
-            series77.ValueDataMembersSerializable = "deaths";
-            series78.ArgumentDataMember = "player_name";
-            series78.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series78.Name = "总分";
-            series78.ValueDataMembersSerializable = "total_score";
+            series17.ArgumentDataMember = "player_name";
+            series17.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series17.Name = "步兵击杀";
+            series17.SeriesID = 0;
+            series17.ValueDataMembersSerializable = "infantry_kills";
+            series18.ArgumentDataMember = "player_name";
+            series18.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series18.Name = "软载具击杀";
+            series18.SeriesID = 1;
+            series18.ValueDataMembersSerializable = "soft_vehicle_kills";
+            series19.ArgumentDataMember = "player_name";
+            series19.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series19.Name = "装甲载具击杀";
+            series19.SeriesID = 2;
+            series19.ValueDataMembersSerializable = "armor_kills";
+            series20.ArgumentDataMember = "player_name";
+            series20.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series20.Name = "飞行载具击杀";
+            series20.SeriesID = 3;
+            series20.ValueDataMembersSerializable = "air_kills";
+            series21.ArgumentDataMember = "player_name";
+            series21.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series21.Name = "死亡次数";
+            series21.SeriesID = 4;
+            series21.ValueDataMembersSerializable = "deaths";
+            series22.ArgumentDataMember = "player_name";
+            series22.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series22.Name = "总分";
+            series22.SeriesID = 5;
+            series22.ValueDataMembersSerializable = "total_score";
             this.chartControl3.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series73,
-        series74,
-        series75,
-        series76,
-        series77,
-        series78};
-            this.chartControl3.Size = new System.Drawing.Size(1880, 526);
+        series17,
+        series18,
+        series19,
+        series20,
+        series21,
+        series22};
+            this.chartControl3.Size = new System.Drawing.Size(1866, 347);
             this.chartControl3.TabIndex = 8;
-            chartTitle9.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartTitle9.Text = "前十名得分统计";
+            chartTitle1.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 18F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            chartTitle1.Text = "前十名得分统计";
+            chartTitle1.TitleID = 0;
             this.chartControl3.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle9});
+            chartTitle1});
             // 
             // a3_player_infoBindingSource1
             // 
@@ -2134,83 +2210,87 @@
             // 
             this.sqlDataSource3.ConnectionName = "destiny_statistics";
             this.sqlDataSource3.Name = "sqlDataSource3";
-            column111.Alias = "player_name";
-            customExpression15.Expression = "CONCAT([a3_player_info.player_id],CONCAT(\'-\',[a3_player_info.player_name] ))\n";
-            column111.Expression = customExpression15;
-            columnExpression102.ColumnName = "infantry_kills";
-            table9.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"344.666656\" />";
-            table9.Name = "a3_player_info";
-            columnExpression102.Table = table9;
-            column112.Expression = columnExpression102;
-            columnExpression103.ColumnName = "soft_vehicle_kills";
-            columnExpression103.Table = table9;
-            column113.Expression = columnExpression103;
-            columnExpression104.ColumnName = "armor_kills";
-            columnExpression104.Table = table9;
-            column114.Expression = columnExpression104;
-            columnExpression105.ColumnName = "air_kills";
-            columnExpression105.Table = table9;
-            column115.Expression = columnExpression105;
-            columnExpression106.ColumnName = "deaths";
-            columnExpression106.Table = table9;
-            column116.Expression = columnExpression106;
-            columnExpression107.ColumnName = "total_score";
-            columnExpression107.Table = table9;
-            column117.Expression = columnExpression107;
-            selectQuery9.Columns.Add(column111);
-            selectQuery9.Columns.Add(column112);
-            selectQuery9.Columns.Add(column113);
-            selectQuery9.Columns.Add(column114);
-            selectQuery9.Columns.Add(column115);
-            selectQuery9.Columns.Add(column116);
-            selectQuery9.Columns.Add(column117);
-            selectQuery9.FilterString = "";
-            selectQuery9.GroupFilterString = "";
-            selectQuery9.Name = "a3_player_info";
-            sorting6.Direction = System.ComponentModel.ListSortDirection.Descending;
-            columnExpression108.ColumnName = "total_score";
-            columnExpression108.Table = table9;
-            sorting6.Expression = columnExpression108;
-            selectQuery9.Sorting.Add(sorting6);
-            selectQuery9.Tables.Add(table9);
-            selectQuery9.Top = 10;
+            column33.Alias = "player_name";
+            customExpression5.Expression = "CONCAT([a3_player_info.player_id],CONCAT(\'-\',[a3_player_info.player_name] ))\n";
+            column33.Expression = customExpression5;
+            columnExpression30.ColumnName = "infantry_kills";
+            table3.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"344.666656\" />";
+            table3.Name = "a3_player_info";
+            columnExpression30.Table = table3;
+            column34.Expression = columnExpression30;
+            columnExpression31.ColumnName = "soft_vehicle_kills";
+            columnExpression31.Table = table3;
+            column35.Expression = columnExpression31;
+            columnExpression32.ColumnName = "armor_kills";
+            columnExpression32.Table = table3;
+            column36.Expression = columnExpression32;
+            columnExpression33.ColumnName = "air_kills";
+            columnExpression33.Table = table3;
+            column37.Expression = columnExpression33;
+            columnExpression34.ColumnName = "deaths";
+            columnExpression34.Table = table3;
+            column38.Expression = columnExpression34;
+            columnExpression35.ColumnName = "total_score";
+            columnExpression35.Table = table3;
+            column39.Expression = columnExpression35;
+            selectQuery3.Columns.Add(column33);
+            selectQuery3.Columns.Add(column34);
+            selectQuery3.Columns.Add(column35);
+            selectQuery3.Columns.Add(column36);
+            selectQuery3.Columns.Add(column37);
+            selectQuery3.Columns.Add(column38);
+            selectQuery3.Columns.Add(column39);
+            selectQuery3.FilterString = "";
+            selectQuery3.GroupFilterString = "";
+            selectQuery3.Name = "a3_player_info";
+            sorting2.Direction = System.ComponentModel.ListSortDirection.Descending;
+            columnExpression36.ColumnName = "total_score";
+            columnExpression36.Table = table3;
+            sorting2.Expression = columnExpression36;
+            selectQuery3.Sorting.Add(sorting2);
+            selectQuery3.Tables.Add(table3);
+            selectQuery3.Top = 10;
             this.sqlDataSource3.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            selectQuery9});
+            selectQuery3});
             this.sqlDataSource3.ResultSchemaSerializable = resources.GetString("sqlDataSource3.ResultSchemaSerializable");
             this.sqlDataSource3.ConfigureDataConnection += new DevExpress.DataAccess.Sql.ConfigureDataConnectionEventHandler(this.sqlDataSource3_ConfigureDataConnection);
             // 
             // chartControl2
             // 
             this.chartControl2.DataSource = this.queryBindingSource;
-            xyDiagram58.AxisX.DateTimeScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Continuous;
-            xyDiagram58.AxisX.TimeSpanScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Continuous;
-            xyDiagram58.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram58.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram58.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram58.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl2.Diagram = xyDiagram58;
-            this.chartControl2.Location = new System.Drawing.Point(24, 55);
+            xyDiagram18.AxisX.DateTimeScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Continuous;
+            xyDiagram18.AxisX.TimeSpanScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Continuous;
+            xyDiagram18.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram18.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram18.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram18.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl2.Diagram = xyDiagram18;
+            this.chartControl2.Legend.LegendID = -1;
+            this.chartControl2.Location = new System.Drawing.Point(31, 62);
             this.chartControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl2.Name = "chartControl2";
-            series79.ArgumentDataMember = "create_time";
-            series79.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series79.CrosshairTextOptions.Tag = "当日新玩家";
-            pointSeriesLabel3.Tag = "当日新玩家";
-            series79.Label = pointSeriesLabel3;
-            series79.Name = "当日新玩家";
-            series79.Tag = "当日新玩家";
-            series79.ValueDataMembersSerializable = "air_kills";
-            stackedAreaSeriesView51.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            stackedAreaSeriesView51.Tag = "当日新玩家";
-            series79.View = stackedAreaSeriesView51;
+            series23.ArgumentDataMember = "create_time";
+            series23.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series23.CrosshairTextOptions.Tag = "当日新玩家";
+            pointSeriesLabel1.Tag = "当日新玩家";
+            series23.Label = pointSeriesLabel1;
+            series23.Name = "当日新玩家";
+            series23.SeriesID = 0;
+            series23.Tag = "当日新玩家";
+            series23.ValueDataMembersSerializable = "air_kills";
+            stackedAreaSeriesView17.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            stackedAreaSeriesView17.Tag = "当日新玩家";
+            series23.View = stackedAreaSeriesView17;
             this.chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series79};
-            this.chartControl2.Size = new System.Drawing.Size(1880, 526);
+        series23};
+            this.chartControl2.Size = new System.Drawing.Size(1866, 347);
             this.chartControl2.TabIndex = 7;
-            chartTitle10.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartTitle10.Text = "当天新玩家统计";
+            chartTitle2.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 18F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            chartTitle2.Text = "当天新玩家统计";
+            chartTitle2.TitleID = 0;
             this.chartControl2.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle10});
+            chartTitle2});
             // 
             // queryBindingSource
             // 
@@ -2221,48 +2301,52 @@
             // 
             this.sqlDataSource2.ConnectionName = "destiny_statistics";
             this.sqlDataSource2.Name = "sqlDataSource2";
-            customSqlQuery3.Name = "Query";
-            customSqlQuery3.Sql = resources.GetString("customSqlQuery3.Sql");
+            customSqlQuery1.Name = "Query";
+            customSqlQuery1.Sql = resources.GetString("customSqlQuery1.Sql");
             this.sqlDataSource2.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            customSqlQuery3});
+            customSqlQuery1});
             this.sqlDataSource2.ResultSchemaSerializable = resources.GetString("sqlDataSource2.ResultSchemaSerializable");
             this.sqlDataSource2.ConfigureDataConnection += new DevExpress.DataAccess.Sql.ConfigureDataConnectionEventHandler(this.sqlDataSource2_ConfigureDataConnection);
             // 
             // memoEdit1
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(24, 55);
+            this.memoEdit1.Location = new System.Drawing.Point(31, 62);
             this.memoEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.memoEdit1.MenuManager = this.ribbon;
             this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(1880, 526);
+            this.memoEdit1.Size = new System.Drawing.Size(1866, 347);
             this.memoEdit1.StyleController = this.layoutControl1;
             this.memoEdit1.TabIndex = 6;
             // 
             // chartControl1
             // 
             this.chartControl1.DataSource = this.a3_object_manipulation_numBindingSource;
-            swiftPlotDiagram3.AxisX.DateTimeScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Manual;
-            swiftPlotDiagram3.AxisX.TimeSpanScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Manual;
-            swiftPlotDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            swiftPlotDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = swiftPlotDiagram3;
-            this.chartControl1.Legend.Font = new System.Drawing.Font("微软雅黑", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chartControl1.Legend.Title.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            swiftPlotDiagram1.AxisX.DateTimeScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Manual;
+            swiftPlotDiagram1.AxisX.TimeSpanScaleOptions.ScaleMode = DevExpress.XtraCharts.ScaleMode.Manual;
+            swiftPlotDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            swiftPlotDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = swiftPlotDiagram1;
+            this.chartControl1.Legend.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 8.25F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.chartControl1.Legend.LegendID = -1;
+            this.chartControl1.Legend.Title.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 12F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
             this.chartControl1.Legend.Title.Text = "监控项目";
             this.chartControl1.Legend.Title.Visible = true;
-            this.chartControl1.Location = new System.Drawing.Point(24, 55);
+            this.chartControl1.Location = new System.Drawing.Point(31, 62);
             this.chartControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl1.Name = "chartControl1";
-            series80.ArgumentDataMember = "create_time";
-            series80.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series80.Name = "玩家数量";
-            series80.ValueDataMembersSerializable = "all_player";
-            swiftPointSeriesView3.PointMarkerOptions.Kind = DevExpress.XtraCharts.MarkerKind.Circle;
-            swiftPointSeriesView3.PointMarkerOptions.Size = 10;
-            series80.View = swiftPointSeriesView3;
+            series24.ArgumentDataMember = "create_time";
+            series24.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series24.Name = "玩家数量";
+            series24.SeriesID = 0;
+            series24.ValueDataMembersSerializable = "all_player";
+            swiftPointSeriesView1.PointMarkerOptions.Kind = DevExpress.XtraCharts.MarkerKind.Circle;
+            swiftPointSeriesView1.PointMarkerOptions.Size = 10;
+            series24.View = swiftPointSeriesView1;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series80};
-            this.chartControl1.Size = new System.Drawing.Size(1880, 97);
+        series24};
+            this.chartControl1.Size = new System.Drawing.Size(1866, 62);
             this.chartControl1.TabIndex = 4;
             // 
             // layoutControlItem3
@@ -2270,7 +2354,7 @@
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(1407, 474);
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(50, 19);
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(50, 16);
             // 
             // Root
             // 
@@ -2279,7 +2363,7 @@
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.tabbedControlGroup1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1924, 601);
+            this.Root.Size = new System.Drawing.Size(1924, 436);
             this.Root.TextVisible = false;
             // 
             // tabbedControlGroup1
@@ -2288,7 +2372,7 @@
             this.tabbedControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.tabbedControlGroup1.Name = "tabbedControlGroup1";
             this.tabbedControlGroup1.SelectedTabPage = this.layoutControlGroup3;
-            this.tabbedControlGroup1.Size = new System.Drawing.Size(1904, 581);
+            this.tabbedControlGroup1.Size = new System.Drawing.Size(1898, 410);
             this.tabbedControlGroup1.Spacing = new DevExpress.XtraLayout.Utils.Padding(2, -2, 2, -2);
             this.tabbedControlGroup1.TabPages.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlGroup3,
@@ -2321,7 +2405,7 @@
             this.layoutControlGroup3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
             this.layoutControlGroup3.OptionsItemText.TextToControlDistance = 3;
-            this.layoutControlGroup3.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlGroup3.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlGroup3.Text = "服务器物体监控";
             // 
             // layoutControlItem1
@@ -2329,151 +2413,151 @@
             this.layoutControlItem1.Control = this.chartControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1884, 101);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1872, 68);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.chartControl4;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 101);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 68);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(470, 100);
+            this.layoutControlItem8.Size = new System.Drawing.Size(467, 67);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.chartControl5;
-            this.layoutControlItem9.Location = new System.Drawing.Point(941, 101);
+            this.layoutControlItem9.Location = new System.Drawing.Point(935, 68);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(471, 100);
+            this.layoutControlItem9.Size = new System.Drawing.Size(468, 67);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.chartControl6;
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 201);
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 135);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(470, 108);
+            this.layoutControlItem11.Size = new System.Drawing.Size(467, 70);
             this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem11.TextVisible = false;
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.chartControl7;
-            this.layoutControlItem13.Location = new System.Drawing.Point(941, 201);
+            this.layoutControlItem13.Location = new System.Drawing.Point(935, 135);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(471, 108);
+            this.layoutControlItem13.Size = new System.Drawing.Size(468, 70);
             this.layoutControlItem13.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem13.TextVisible = false;
             // 
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.chartControl8;
-            this.layoutControlItem14.Location = new System.Drawing.Point(0, 309);
+            this.layoutControlItem14.Location = new System.Drawing.Point(0, 205);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(470, 113);
+            this.layoutControlItem14.Size = new System.Drawing.Size(467, 76);
             this.layoutControlItem14.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem14.TextVisible = false;
             // 
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.chartControl9;
-            this.layoutControlItem15.Location = new System.Drawing.Point(0, 422);
+            this.layoutControlItem15.Location = new System.Drawing.Point(0, 281);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(470, 108);
+            this.layoutControlItem15.Size = new System.Drawing.Size(467, 72);
             this.layoutControlItem15.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem15.TextVisible = false;
             // 
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.chartControl10;
-            this.layoutControlItem16.Location = new System.Drawing.Point(941, 309);
+            this.layoutControlItem16.Location = new System.Drawing.Point(935, 205);
             this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(471, 113);
+            this.layoutControlItem16.Size = new System.Drawing.Size(468, 76);
             this.layoutControlItem16.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem16.TextVisible = false;
             // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.chartControl11;
-            this.layoutControlItem17.Location = new System.Drawing.Point(941, 422);
+            this.layoutControlItem17.Location = new System.Drawing.Point(935, 281);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(471, 108);
+            this.layoutControlItem17.Size = new System.Drawing.Size(468, 72);
             this.layoutControlItem17.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem17.TextVisible = false;
             // 
             // layoutControlItem18
             // 
             this.layoutControlItem18.Control = this.chartControl12;
-            this.layoutControlItem18.Location = new System.Drawing.Point(1412, 101);
+            this.layoutControlItem18.Location = new System.Drawing.Point(1403, 68);
             this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(472, 100);
+            this.layoutControlItem18.Size = new System.Drawing.Size(469, 67);
             this.layoutControlItem18.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem18.TextVisible = false;
             // 
             // layoutControlItem19
             // 
             this.layoutControlItem19.Control = this.chartControl13;
-            this.layoutControlItem19.Location = new System.Drawing.Point(1412, 201);
+            this.layoutControlItem19.Location = new System.Drawing.Point(1403, 135);
             this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(472, 108);
+            this.layoutControlItem19.Size = new System.Drawing.Size(469, 70);
             this.layoutControlItem19.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem19.TextVisible = false;
             // 
             // layoutControlItem20
             // 
             this.layoutControlItem20.Control = this.chartControl14;
-            this.layoutControlItem20.Location = new System.Drawing.Point(1412, 309);
+            this.layoutControlItem20.Location = new System.Drawing.Point(1403, 205);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(472, 113);
+            this.layoutControlItem20.Size = new System.Drawing.Size(469, 76);
             this.layoutControlItem20.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem20.TextVisible = false;
             // 
             // layoutControlItem21
             // 
             this.layoutControlItem21.Control = this.chartControl15;
-            this.layoutControlItem21.Location = new System.Drawing.Point(1412, 422);
+            this.layoutControlItem21.Location = new System.Drawing.Point(1403, 281);
             this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(472, 108);
+            this.layoutControlItem21.Size = new System.Drawing.Size(469, 72);
             this.layoutControlItem21.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem21.TextVisible = false;
             // 
             // layoutControlItem22
             // 
             this.layoutControlItem22.Control = this.chartControl16;
-            this.layoutControlItem22.Location = new System.Drawing.Point(470, 101);
+            this.layoutControlItem22.Location = new System.Drawing.Point(467, 68);
             this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(471, 100);
+            this.layoutControlItem22.Size = new System.Drawing.Size(468, 67);
             this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem22.TextVisible = false;
             // 
             // layoutControlItem23
             // 
             this.layoutControlItem23.Control = this.chartControl17;
-            this.layoutControlItem23.Location = new System.Drawing.Point(470, 201);
+            this.layoutControlItem23.Location = new System.Drawing.Point(467, 135);
             this.layoutControlItem23.Name = "layoutControlItem23";
-            this.layoutControlItem23.Size = new System.Drawing.Size(471, 108);
+            this.layoutControlItem23.Size = new System.Drawing.Size(468, 70);
             this.layoutControlItem23.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem23.TextVisible = false;
             // 
             // layoutControlItem24
             // 
             this.layoutControlItem24.Control = this.chartControl18;
-            this.layoutControlItem24.Location = new System.Drawing.Point(470, 309);
+            this.layoutControlItem24.Location = new System.Drawing.Point(467, 205);
             this.layoutControlItem24.Name = "layoutControlItem24";
-            this.layoutControlItem24.Size = new System.Drawing.Size(471, 113);
+            this.layoutControlItem24.Size = new System.Drawing.Size(468, 76);
             this.layoutControlItem24.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem24.TextVisible = false;
             // 
             // layoutControlItem25
             // 
             this.layoutControlItem25.Control = this.chartControl19;
-            this.layoutControlItem25.Location = new System.Drawing.Point(470, 422);
+            this.layoutControlItem25.Location = new System.Drawing.Point(467, 281);
             this.layoutControlItem25.Name = "layoutControlItem25";
-            this.layoutControlItem25.Size = new System.Drawing.Size(471, 108);
+            this.layoutControlItem25.Size = new System.Drawing.Size(468, 72);
             this.layoutControlItem25.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem25.TextVisible = false;
             // 
@@ -2485,7 +2569,7 @@
             this.layoutControlGroup4.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup4.Name = "layoutControlGroup4";
             this.layoutControlGroup4.OptionsItemText.TextToControlDistance = 3;
-            this.layoutControlGroup4.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlGroup4.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlGroup4.Text = "新玩家监控";
             // 
             // layoutControlItem2
@@ -2493,7 +2577,7 @@
             this.layoutControlItem2.Control = this.chartControl2;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlItem2.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
@@ -2503,7 +2587,7 @@
             this.layoutControlItem5});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlGroup1.Text = "前十得分统计";
             // 
             // layoutControlItem5
@@ -2511,7 +2595,7 @@
             this.layoutControlItem5.Control = this.chartControl3;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlItem5.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
             // 
@@ -2521,7 +2605,7 @@
             this.layoutControlItem6});
             this.layoutControlGroup5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup5.Name = "layoutControlGroup5";
-            this.layoutControlGroup5.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlGroup5.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlGroup5.Text = "全部玩家得分表";
             // 
             // layoutControlItem6
@@ -2529,7 +2613,7 @@
             this.layoutControlItem6.Control = this.gridControl4;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlItem6.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextVisible = false;
             // 
@@ -2539,7 +2623,7 @@
             this.layoutControlItem4});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlGroup2.Text = "进程通信日志";
             // 
             // layoutControlItem4
@@ -2547,17 +2631,15 @@
             this.layoutControlItem4.Control = this.memoEdit1;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(1884, 530);
+            this.layoutControlItem4.Size = new System.Drawing.Size(1872, 353);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
             // 
-            // tabNavigationPage3
+            // navigationPage3
             // 
-            this.tabNavigationPage3.Caption = "封禁列表";
-            this.tabNavigationPage3.Controls.Add(this.gridControl2);
-            this.tabNavigationPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage3.Name = "tabNavigationPage3";
-            this.tabNavigationPage3.Size = new System.Drawing.Size(1924, 601);
+            this.navigationPage3.Controls.Add(this.gridControl2);
+            this.navigationPage3.Name = "navigationPage3";
+            this.navigationPage3.Size = new System.Drawing.Size(1924, 436);
             // 
             // gridControl2
             // 
@@ -2567,7 +2649,7 @@
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(1924, 601);
+            this.gridControl2.Size = new System.Drawing.Size(1924, 436);
             this.gridControl2.TabIndex = 6;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -2575,18 +2657,17 @@
             // 
             // gridView2
             // 
+            this.gridView2.DetailHeight = 288;
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
             this.gridView2.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gridView2_PopupMenuShowing);
             this.gridView2.Click += new System.EventHandler(this.gridView2_Click);
             // 
-            // tabNavigationPage4
+            // navigationPage4
             // 
-            this.tabNavigationPage4.Caption = "任务列表";
-            this.tabNavigationPage4.Controls.Add(this.listBoxControl1);
-            this.tabNavigationPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage4.Name = "tabNavigationPage4";
-            this.tabNavigationPage4.Size = new System.Drawing.Size(1924, 684);
+            this.navigationPage4.Controls.Add(this.listBoxControl1);
+            this.navigationPage4.Name = "navigationPage4";
+            this.navigationPage4.Size = new System.Drawing.Size(1924, 436);
             // 
             // listBoxControl1
             // 
@@ -2594,28 +2675,26 @@
             this.listBoxControl1.Location = new System.Drawing.Point(0, 0);
             this.listBoxControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(1924, 684);
+            this.listBoxControl1.Size = new System.Drawing.Size(1924, 436);
             this.listBoxControl1.StyleController = this.layoutControl1;
             this.listBoxControl1.TabIndex = 7;
             this.listBoxControl1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listBoxControl1_MouseClick);
             // 
-            // tabNavigationPage5
+            // navigationPage5
             // 
-            this.tabNavigationPage5.Caption = "聊天信息";
-            this.tabNavigationPage5.Controls.Add(this.textEdit1);
-            this.tabNavigationPage5.Controls.Add(this.richEditControl1);
-            this.tabNavigationPage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage5.Name = "tabNavigationPage5";
-            this.tabNavigationPage5.Size = new System.Drawing.Size(1924, 684);
+            this.navigationPage5.Controls.Add(this.textEdit1);
+            this.navigationPage5.Controls.Add(this.richEditControl1);
+            this.navigationPage5.Name = "navigationPage5";
+            this.navigationPage5.Size = new System.Drawing.Size(1924, 436);
             // 
             // textEdit1
             // 
             this.textEdit1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textEdit1.Location = new System.Drawing.Point(0, 648);
+            this.textEdit1.Location = new System.Drawing.Point(0, 404);
             this.textEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textEdit1.MenuManager = this.barManager1;
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(1924, 36);
+            this.textEdit1.Size = new System.Drawing.Size(1924, 32);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 11;
             this.textEdit1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textEdit1_KeyDown);
@@ -2652,7 +2731,7 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 895);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 737);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.barDockControlBottom.Size = new System.Drawing.Size(1924, 0);
@@ -2664,7 +2743,7 @@
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 895);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 737);
             // 
             // barDockControlRight
             // 
@@ -2673,7 +2752,7 @@
             this.barDockControlRight.Location = new System.Drawing.Point(1924, 0);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 895);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 737);
             // 
             // barButtonItem5
             // 
@@ -2758,17 +2837,15 @@
             this.richEditControl1.Options.HorizontalScrollbar.Visibility = DevExpress.XtraRichEdit.RichEditScrollbarVisibility.Hidden;
             this.richEditControl1.Options.VerticalRuler.Visibility = DevExpress.XtraRichEdit.RichEditRulerVisibility.Hidden;
             this.richEditControl1.ReadOnly = true;
-            this.richEditControl1.Size = new System.Drawing.Size(1924, 684);
+            this.richEditControl1.Size = new System.Drawing.Size(1924, 436);
             this.richEditControl1.TabIndex = 10;
             this.richEditControl1.Views.PrintLayoutView.BackColor = System.Drawing.SystemColors.InfoText;
             // 
-            // tabNavigationPage6
+            // navigationPage6
             // 
-            this.tabNavigationPage6.Caption = "玩家数据库";
-            this.tabNavigationPage6.Controls.Add(this.gridControl3);
-            this.tabNavigationPage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage6.Name = "tabNavigationPage6";
-            this.tabNavigationPage6.Size = new System.Drawing.Size(1924, 684);
+            this.navigationPage6.Controls.Add(this.gridControl3);
+            this.navigationPage6.Name = "navigationPage6";
+            this.navigationPage6.Size = new System.Drawing.Size(1924, 436);
             // 
             // gridControl3
             // 
@@ -2779,7 +2856,7 @@
             this.gridControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gridControl3.MenuManager = this.barManager1;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(1924, 684);
+            this.gridControl3.Size = new System.Drawing.Size(1924, 436);
             this.gridControl3.TabIndex = 78;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -2788,387 +2865,38 @@
             // 
             // gridView3
             // 
+            this.gridView3.DetailHeight = 288;
             this.gridView3.GridControl = this.gridControl3;
             this.gridView3.Name = "gridView3";
             this.gridView3.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gridView3_PopupMenuShowing);
             // 
-            // tabNavigationPage8
+            // navigationPage7
             // 
-            this.tabNavigationPage8.Caption = "重启管理-定点重启";
-            this.tabNavigationPage8.Controls.Add(this.panelControl2);
-            this.tabNavigationPage8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage8.Name = "tabNavigationPage8";
-            this.tabNavigationPage8.Size = new System.Drawing.Size(1924, 601);
-            // 
-            // panelControl2
-            // 
-            this.panelControl2.Controls.Add(this.layoutControl3);
-            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl2.Location = new System.Drawing.Point(0, 0);
-            this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(1924, 601);
-            this.panelControl2.TabIndex = 0;
-            // 
-            // layoutControl3
-            // 
-            this.layoutControl3.Controls.Add(this.gridControl5);
-            this.layoutControl3.Controls.Add(this.labelControl2);
-            this.layoutControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl3.Location = new System.Drawing.Point(2, 2);
-            this.layoutControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.layoutControl3.Name = "layoutControl3";
-            this.layoutControl3.Root = this.layoutControlGroup7;
-            this.layoutControl3.Size = new System.Drawing.Size(1920, 597);
-            this.layoutControl3.TabIndex = 0;
-            this.layoutControl3.Text = "layoutControl3";
-            // 
-            // gridControl5
-            // 
-            this.gridControl5.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gridControl5.Location = new System.Drawing.Point(12, 33);
-            this.gridControl5.MainView = this.gridView5;
-            this.gridControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gridControl5.MenuManager = this.ribbon;
-            this.gridControl5.Name = "gridControl5";
-            this.gridControl5.Size = new System.Drawing.Size(1896, 537);
-            this.gridControl5.TabIndex = 7;
-            this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView5});
-            this.gridControl5.Click += new System.EventHandler(this.gridControl5_Click);
-            this.gridControl5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.gridControl5_MouseClick);
-            // 
-            // gridView5
-            // 
-            this.gridView5.GridControl = this.gridControl5;
-            this.gridView5.Name = "gridView5";
-            this.gridView5.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gridView5_PopupMenuShowing);
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 12);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(1418, 17);
-            this.labelControl2.StyleController = this.layoutControl3;
-            this.labelControl2.TabIndex = 6;
-            this.labelControl2.Text = "提示:通过自定义的CRON表达式进行重启(硬重启，直接结束当前服务端进程然后再次创建，玩家会显示连接丢失)，建议不要和脚本重启一起使用，脚本会自动完成重启操作，并" +
-    "且进程的ID未知，CRON重启是操作的进程ID，它会自动保存创建的进程ID以用于操作重启";
-            // 
-            // layoutControlGroup7
-            // 
-            this.layoutControlGroup7.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup7.GroupBordersVisible = false;
-            this.layoutControlGroup7.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.emptySpaceItem2,
-            this.layoutControlItem12,
-            this.layoutControlItem7});
-            this.layoutControlGroup7.Name = "layoutControlGroup7";
-            this.layoutControlGroup7.Size = new System.Drawing.Size(1920, 597);
-            this.layoutControlGroup7.TextVisible = false;
-            // 
-            // emptySpaceItem2
-            // 
-            this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 562);
-            this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(1900, 15);
-            this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // layoutControlItem12
-            // 
-            this.layoutControlItem12.Control = this.labelControl2;
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(1900, 21);
-            this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem12.TextVisible = false;
-            // 
-            // layoutControlItem7
-            // 
-            this.layoutControlItem7.Control = this.gridControl5;
-            this.layoutControlItem7.Location = new System.Drawing.Point(0, 21);
-            this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(1900, 541);
-            this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem7.TextVisible = false;
-            // 
-            // tabNavigationPage9
-            // 
-            this.tabNavigationPage9.Caption = "重启管理-脚本重启";
-            this.tabNavigationPage9.Controls.Add(this.panelControl1);
-            this.tabNavigationPage9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavigationPage9.Name = "tabNavigationPage9";
-            this.tabNavigationPage9.Size = new System.Drawing.Size(1924, 601);
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Controls.Add(this.layoutControl2);
-            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl1.Location = new System.Drawing.Point(0, 0);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1924, 601);
-            this.panelControl1.TabIndex = 0;
-            // 
-            // layoutControl2
-            // 
-            this.layoutControl2.Controls.Add(this.labelControl1);
-            this.layoutControl2.Controls.Add(this.toggleSwitch4);
-            this.layoutControl2.Controls.Add(this.simpleButton1);
-            this.layoutControl2.Controls.Add(this.toggleSwitch3);
-            this.layoutControl2.Controls.Add(this.spinEdit2);
-            this.layoutControl2.Controls.Add(this.textEdit2);
-            this.layoutControl2.Controls.Add(this.spinEdit1);
-            this.layoutControl2.Controls.Add(this.toggleSwitch1);
-            this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl2.Location = new System.Drawing.Point(2, 2);
-            this.layoutControl2.Name = "layoutControl2";
-            this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1321, 650, 650, 400);
-            this.layoutControl2.Root = this.layoutControlGroup6;
-            this.layoutControl2.Size = new System.Drawing.Size(1920, 597);
-            this.layoutControl2.TabIndex = 0;
-            this.layoutControl2.Text = "layoutControl2";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(403, 17);
-            this.labelControl1.StyleController = this.layoutControl2;
-            this.labelControl1.TabIndex = 11;
-            this.labelControl1.Text = "注意:开服工具的目录不要太深，否则打包会失败!建议放到例如:X:\\XXX\\目录";
-            // 
-            // toggleSwitch4
-            // 
-            this.toggleSwitch4.Location = new System.Drawing.Point(278, 33);
-            this.toggleSwitch4.MenuManager = this.ribbon;
-            this.toggleSwitch4.Name = "toggleSwitch4";
-            this.toggleSwitch4.Properties.OffText = "已禁用";
-            this.toggleSwitch4.Properties.OnText = "已启用";
-            this.toggleSwitch4.Size = new System.Drawing.Size(1630, 28);
-            this.toggleSwitch4.StyleController = this.layoutControl2;
-            this.toggleSwitch4.TabIndex = 10;
-            this.toggleSwitch4.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch4_EditValueChanging);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(12, 249);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(1896, 32);
-            this.simpleButton1.StyleController = this.layoutControl2;
-            this.simpleButton1.TabIndex = 9;
-            this.simpleButton1.Text = "生成服务端模组";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
-            // 
-            // toggleSwitch3
-            // 
-            this.toggleSwitch3.Location = new System.Drawing.Point(278, 65);
-            this.toggleSwitch3.MenuManager = this.ribbon;
-            this.toggleSwitch3.Name = "toggleSwitch3";
-            this.toggleSwitch3.Properties.OffText = "已禁用";
-            this.toggleSwitch3.Properties.OnText = "已启用";
-            this.toggleSwitch3.Size = new System.Drawing.Size(1630, 28);
-            this.toggleSwitch3.StyleController = this.layoutControl2;
-            this.toggleSwitch3.TabIndex = 8;
-            this.toggleSwitch3.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch3_EditValueChanging);
-            // 
-            // spinEdit2
-            // 
-            this.spinEdit2.EditValue = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
-            this.spinEdit2.Location = new System.Drawing.Point(278, 209);
-            this.spinEdit2.MenuManager = this.ribbon;
-            this.spinEdit2.Name = "spinEdit2";
-            this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit2.Size = new System.Drawing.Size(1630, 36);
-            this.spinEdit2.StyleController = this.layoutControl2;
-            this.spinEdit2.TabIndex = 7;
-            this.spinEdit2.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.spinEdit2_EditValueChanging);
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.EditValue = "服务器马上重启一会儿就好了";
-            this.textEdit2.Location = new System.Drawing.Point(278, 169);
-            this.textEdit2.MenuManager = this.ribbon;
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(1630, 36);
-            this.textEdit2.StyleController = this.layoutControl2;
-            this.textEdit2.TabIndex = 6;
-            this.textEdit2.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.textEdit2_EditValueChanging);
-            // 
-            // spinEdit1
-            // 
-            this.spinEdit1.EditValue = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.spinEdit1.Location = new System.Drawing.Point(278, 129);
-            this.spinEdit1.MenuManager = this.ribbon;
-            this.spinEdit1.Name = "spinEdit1";
-            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(1630, 36);
-            this.spinEdit1.StyleController = this.layoutControl2;
-            this.spinEdit1.TabIndex = 5;
-            this.spinEdit1.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.spinEdit1_EditValueChanging);
-            // 
-            // toggleSwitch1
-            // 
-            this.toggleSwitch1.Location = new System.Drawing.Point(278, 97);
-            this.toggleSwitch1.MenuManager = this.ribbon;
-            this.toggleSwitch1.Name = "toggleSwitch1";
-            this.toggleSwitch1.Properties.OffText = "已禁用";
-            this.toggleSwitch1.Properties.OnText = "已启用";
-            this.toggleSwitch1.Size = new System.Drawing.Size(1630, 28);
-            this.toggleSwitch1.StyleController = this.layoutControl2;
-            this.toggleSwitch1.TabIndex = 4;
-            this.toggleSwitch1.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch1_EditValueChanging);
-            // 
-            // layoutControlGroup6
-            // 
-            this.layoutControlGroup6.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup6.GroupBordersVisible = false;
-            this.layoutControlGroup6.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem26,
-            this.emptySpaceItem1,
-            this.layoutControlItem27,
-            this.layoutControlItem28,
-            this.layoutControlItem29,
-            this.layoutControlItem30,
-            this.layoutControlItem31,
-            this.layoutControlItem32,
-            this.layoutControlItem10});
-            this.layoutControlGroup6.Name = "Root";
-            this.layoutControlGroup6.Size = new System.Drawing.Size(1920, 597);
-            this.layoutControlGroup6.TextVisible = false;
-            // 
-            // layoutControlItem26
-            // 
-            this.layoutControlItem26.ContentVertAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.layoutControlItem26.Control = this.toggleSwitch1;
-            this.layoutControlItem26.CustomizationFormText = "启用脚本重启:";
-            this.layoutControlItem26.Location = new System.Drawing.Point(0, 85);
-            this.layoutControlItem26.Name = "layoutControlItem26";
-            this.layoutControlItem26.Size = new System.Drawing.Size(1900, 32);
-            this.layoutControlItem26.Text = "开启重启服务:";
-            this.layoutControlItem26.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // emptySpaceItem1
-            // 
-            this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 273);
-            this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(1900, 304);
-            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // layoutControlItem27
-            // 
-            this.layoutControlItem27.Control = this.spinEdit1;
-            this.layoutControlItem27.Location = new System.Drawing.Point(0, 117);
-            this.layoutControlItem27.Name = "layoutControlItem27";
-            this.layoutControlItem27.Size = new System.Drawing.Size(1900, 40);
-            this.layoutControlItem27.Text = "多久后重启(单位是小时):";
-            this.layoutControlItem27.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // layoutControlItem28
-            // 
-            this.layoutControlItem28.Control = this.textEdit2;
-            this.layoutControlItem28.Location = new System.Drawing.Point(0, 157);
-            this.layoutControlItem28.Name = "layoutControlItem28";
-            this.layoutControlItem28.Size = new System.Drawing.Size(1900, 40);
-            this.layoutControlItem28.Text = "重启时显示的消息:";
-            this.layoutControlItem28.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // layoutControlItem29
-            // 
-            this.layoutControlItem29.Control = this.spinEdit2;
-            this.layoutControlItem29.Location = new System.Drawing.Point(0, 197);
-            this.layoutControlItem29.Name = "layoutControlItem29";
-            this.layoutControlItem29.Size = new System.Drawing.Size(1900, 40);
-            this.layoutControlItem29.Text = "重启延迟(到时间后延迟多久立即重启,单位是秒):";
-            this.layoutControlItem29.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // layoutControlItem30
-            // 
-            this.layoutControlItem30.Control = this.toggleSwitch3;
-            this.layoutControlItem30.Location = new System.Drawing.Point(0, 53);
-            this.layoutControlItem30.Name = "layoutControlItem30";
-            this.layoutControlItem30.Size = new System.Drawing.Size(1900, 32);
-            this.layoutControlItem30.Text = "开启统计服务:";
-            this.layoutControlItem30.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // layoutControlItem31
-            // 
-            this.layoutControlItem31.Control = this.simpleButton1;
-            this.layoutControlItem31.Location = new System.Drawing.Point(0, 237);
-            this.layoutControlItem31.Name = "layoutControlItem31";
-            this.layoutControlItem31.Size = new System.Drawing.Size(1900, 36);
-            this.layoutControlItem31.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem31.TextVisible = false;
-            // 
-            // layoutControlItem32
-            // 
-            this.layoutControlItem32.Control = this.toggleSwitch4;
-            this.layoutControlItem32.Location = new System.Drawing.Point(0, 21);
-            this.layoutControlItem32.Name = "layoutControlItem32";
-            this.layoutControlItem32.Size = new System.Drawing.Size(1900, 32);
-            this.layoutControlItem32.Text = "启用服务";
-            this.layoutControlItem32.TextSize = new System.Drawing.Size(254, 17);
-            // 
-            // layoutControlItem10
-            // 
-            this.layoutControlItem10.Control = this.labelControl1;
-            this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(1900, 21);
-            this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem10.TextVisible = false;
-            // 
-            // tabNavigationPage7
-            // 
-            this.tabNavigationPage7.Caption = "服务端进程监控";
-            this.tabNavigationPage7.Controls.Add(this.layoutControl4);
-            this.tabNavigationPage7.Name = "tabNavigationPage7";
-            this.tabNavigationPage7.Size = new System.Drawing.Size(1924, 601);
+            this.navigationPage7.Controls.Add(this.layoutControl4);
+            this.navigationPage7.Name = "navigationPage7";
+            this.navigationPage7.Size = new System.Drawing.Size(1924, 436);
             // 
             // layoutControl4
             // 
-            this.layoutControl4.Controls.Add(this.toggleSwitch2);
             this.layoutControl4.Controls.Add(this.groupControl2);
             this.layoutControl4.Controls.Add(this.chartControl21);
             this.layoutControl4.Controls.Add(this.chartControl20);
             this.layoutControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl4.Location = new System.Drawing.Point(0, 0);
+            this.layoutControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.layoutControl4.Name = "layoutControl4";
             this.layoutControl4.Root = this.layoutControlGroup8;
-            this.layoutControl4.Size = new System.Drawing.Size(1924, 601);
+            this.layoutControl4.Size = new System.Drawing.Size(1924, 436);
             this.layoutControl4.TabIndex = 0;
             this.layoutControl4.Text = "layoutControl4";
-            // 
-            // toggleSwitch2
-            // 
-            this.toggleSwitch2.Location = new System.Drawing.Point(75, 12);
-            this.toggleSwitch2.MenuManager = this.ribbon;
-            this.toggleSwitch2.Name = "toggleSwitch2";
-            this.toggleSwitch2.Properties.OffText = "已禁用";
-            this.toggleSwitch2.Properties.OnText = "已启用";
-            this.toggleSwitch2.Size = new System.Drawing.Size(1837, 28);
-            this.toggleSwitch2.StyleController = this.layoutControl4;
-            this.toggleSwitch2.TabIndex = 7;
             // 
             // groupControl2
             // 
             this.groupControl2.Controls.Add(this.layoutControl5);
-            this.groupControl2.Location = new System.Drawing.Point(261, 44);
+            this.groupControl2.Location = new System.Drawing.Point(264, 16);
+            this.groupControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(236, 545);
+            this.groupControl2.Size = new System.Drawing.Size(233, 481);
             this.groupControl2.TabIndex = 6;
             this.groupControl2.Text = "进程详情:";
             // 
@@ -3193,154 +2921,173 @@
             this.layoutControl5.Controls.Add(this.labelControl4);
             this.layoutControl5.Controls.Add(this.labelControl3);
             this.layoutControl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl5.Location = new System.Drawing.Point(2, 23);
+            this.layoutControl5.Location = new System.Drawing.Point(2, 29);
+            this.layoutControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.layoutControl5.Name = "layoutControl5";
             this.layoutControl5.Root = this.layoutControlGroup9;
-            this.layoutControl5.Size = new System.Drawing.Size(232, 520);
+            this.layoutControl5.Size = new System.Drawing.Size(229, 450);
             this.layoutControl5.TabIndex = 0;
             this.layoutControl5.Text = "layoutControl5";
             // 
             // labelControl20
             // 
-            this.labelControl20.Location = new System.Drawing.Point(123, 369);
+            this.labelControl20.Location = new System.Drawing.Point(131, 407);
+            this.labelControl20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(97, 17);
+            this.labelControl20.Size = new System.Drawing.Size(82, 17);
             this.labelControl20.StyleController = this.layoutControl5;
             this.labelControl20.TabIndex = 21;
             // 
             // labelControl19
             // 
-            this.labelControl19.Location = new System.Drawing.Point(123, 12);
+            this.labelControl19.Location = new System.Drawing.Point(131, 16);
+            this.labelControl19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(97, 17);
+            this.labelControl19.Size = new System.Drawing.Size(82, 17);
             this.labelControl19.StyleController = this.layoutControl5;
             this.labelControl19.TabIndex = 20;
             // 
             // labelControl18
             // 
-            this.labelControl18.Location = new System.Drawing.Point(123, 75);
+            this.labelControl18.Location = new System.Drawing.Point(131, 85);
+            this.labelControl18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(97, 17);
+            this.labelControl18.Size = new System.Drawing.Size(82, 17);
             this.labelControl18.StyleController = this.layoutControl5;
             this.labelControl18.TabIndex = 19;
             // 
             // labelControl17
             // 
-            this.labelControl17.Location = new System.Drawing.Point(123, 243);
+            this.labelControl17.Location = new System.Drawing.Point(131, 269);
+            this.labelControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(97, 17);
+            this.labelControl17.Size = new System.Drawing.Size(82, 17);
             this.labelControl17.StyleController = this.layoutControl5;
             this.labelControl17.TabIndex = 18;
             // 
             // labelControl16
             // 
-            this.labelControl16.Location = new System.Drawing.Point(123, 348);
+            this.labelControl16.Location = new System.Drawing.Point(131, 384);
+            this.labelControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(97, 17);
+            this.labelControl16.Size = new System.Drawing.Size(82, 17);
             this.labelControl16.StyleController = this.layoutControl5;
             this.labelControl16.TabIndex = 17;
             // 
             // labelControl15
             // 
-            this.labelControl15.Location = new System.Drawing.Point(123, 327);
+            this.labelControl15.Location = new System.Drawing.Point(131, 361);
+            this.labelControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(97, 17);
+            this.labelControl15.Size = new System.Drawing.Size(82, 17);
             this.labelControl15.StyleController = this.layoutControl5;
             this.labelControl15.TabIndex = 16;
             // 
             // labelControl14
             // 
-            this.labelControl14.Location = new System.Drawing.Point(123, 33);
+            this.labelControl14.Location = new System.Drawing.Point(131, 39);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(97, 17);
+            this.labelControl14.Size = new System.Drawing.Size(82, 17);
             this.labelControl14.StyleController = this.layoutControl5;
             this.labelControl14.TabIndex = 15;
             // 
             // labelControl13
             // 
-            this.labelControl13.Location = new System.Drawing.Point(123, 306);
+            this.labelControl13.Location = new System.Drawing.Point(131, 338);
+            this.labelControl13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(97, 17);
+            this.labelControl13.Size = new System.Drawing.Size(82, 17);
             this.labelControl13.StyleController = this.layoutControl5;
             this.labelControl13.TabIndex = 14;
             // 
             // labelControl12
             // 
-            this.labelControl12.Location = new System.Drawing.Point(123, 285);
+            this.labelControl12.Location = new System.Drawing.Point(131, 315);
+            this.labelControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(97, 17);
+            this.labelControl12.Size = new System.Drawing.Size(82, 17);
             this.labelControl12.StyleController = this.layoutControl5;
             this.labelControl12.TabIndex = 13;
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(123, 264);
+            this.labelControl11.Location = new System.Drawing.Point(131, 292);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(97, 17);
+            this.labelControl11.Size = new System.Drawing.Size(82, 17);
             this.labelControl11.StyleController = this.layoutControl5;
             this.labelControl11.TabIndex = 12;
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(123, 222);
+            this.labelControl10.Location = new System.Drawing.Point(131, 246);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(97, 17);
+            this.labelControl10.Size = new System.Drawing.Size(82, 17);
             this.labelControl10.StyleController = this.layoutControl5;
             this.labelControl10.TabIndex = 11;
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(123, 201);
+            this.labelControl9.Location = new System.Drawing.Point(131, 223);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(97, 17);
+            this.labelControl9.Size = new System.Drawing.Size(82, 17);
             this.labelControl9.StyleController = this.layoutControl5;
             this.labelControl9.TabIndex = 10;
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(123, 180);
+            this.labelControl8.Location = new System.Drawing.Point(131, 200);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(97, 17);
+            this.labelControl8.Size = new System.Drawing.Size(82, 17);
             this.labelControl8.StyleController = this.layoutControl5;
             this.labelControl8.TabIndex = 9;
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(123, 159);
+            this.labelControl7.Location = new System.Drawing.Point(131, 177);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(97, 17);
+            this.labelControl7.Size = new System.Drawing.Size(82, 17);
             this.labelControl7.StyleController = this.layoutControl5;
             this.labelControl7.TabIndex = 8;
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(123, 138);
+            this.labelControl6.Location = new System.Drawing.Point(131, 154);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(97, 17);
+            this.labelControl6.Size = new System.Drawing.Size(82, 17);
             this.labelControl6.StyleController = this.layoutControl5;
             this.labelControl6.TabIndex = 7;
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(123, 117);
+            this.labelControl5.Location = new System.Drawing.Point(131, 131);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(97, 17);
+            this.labelControl5.Size = new System.Drawing.Size(82, 17);
             this.labelControl5.StyleController = this.layoutControl5;
             this.labelControl5.TabIndex = 6;
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(123, 96);
+            this.labelControl4.Location = new System.Drawing.Point(131, 108);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(97, 17);
+            this.labelControl4.Size = new System.Drawing.Size(82, 17);
             this.labelControl4.StyleController = this.layoutControl5;
             this.labelControl4.TabIndex = 5;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(123, 54);
+            this.labelControl3.Location = new System.Drawing.Point(131, 62);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(97, 17);
+            this.labelControl3.Size = new System.Drawing.Size(82, 17);
             this.labelControl3.StyleController = this.layoutControl5;
             this.labelControl3.TabIndex = 4;
             // 
@@ -3369,158 +3116,158 @@
             this.layoutControlItem52,
             this.layoutControlItem53});
             this.layoutControlGroup9.Name = "layoutControlGroup9";
-            this.layoutControlGroup9.Size = new System.Drawing.Size(232, 520);
+            this.layoutControlGroup9.Size = new System.Drawing.Size(229, 450);
             this.layoutControlGroup9.TextVisible = false;
             // 
             // layoutControlItem36
             // 
             this.layoutControlItem36.Control = this.labelControl3;
-            this.layoutControlItem36.Location = new System.Drawing.Point(0, 42);
+            this.layoutControlItem36.Location = new System.Drawing.Point(0, 46);
             this.layoutControlItem36.Name = "layoutControlItem36";
-            this.layoutControlItem36.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem36.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem36.Text = "物理内存使用:";
             this.layoutControlItem36.TextSize = new System.Drawing.Size(99, 17);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 378);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 414);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(212, 122);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(203, 10);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem37
             // 
             this.layoutControlItem37.Control = this.labelControl4;
-            this.layoutControlItem37.Location = new System.Drawing.Point(0, 84);
+            this.layoutControlItem37.Location = new System.Drawing.Point(0, 92);
             this.layoutControlItem37.Name = "layoutControlItem37";
-            this.layoutControlItem37.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem37.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem37.Text = "基本优先级:";
             this.layoutControlItem37.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem38
             // 
             this.layoutControlItem38.Control = this.labelControl5;
-            this.layoutControlItem38.Location = new System.Drawing.Point(0, 105);
+            this.layoutControlItem38.Location = new System.Drawing.Point(0, 115);
             this.layoutControlItem38.Name = "layoutControlItem38";
-            this.layoutControlItem38.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem38.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem38.Text = "优先级:";
             this.layoutControlItem38.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem39
             // 
             this.layoutControlItem39.Control = this.labelControl6;
-            this.layoutControlItem39.Location = new System.Drawing.Point(0, 126);
+            this.layoutControlItem39.Location = new System.Drawing.Point(0, 138);
             this.layoutControlItem39.Name = "layoutControlItem39";
-            this.layoutControlItem39.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem39.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem39.Text = "运行处理器耗时:";
             this.layoutControlItem39.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem40
             // 
             this.layoutControlItem40.Control = this.labelControl7;
-            this.layoutControlItem40.Location = new System.Drawing.Point(0, 147);
+            this.layoutControlItem40.Location = new System.Drawing.Point(0, 161);
             this.layoutControlItem40.Name = "layoutControlItem40";
-            this.layoutControlItem40.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem40.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem40.Text = "内核处理器耗时:";
             this.layoutControlItem40.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem41
             // 
             this.layoutControlItem41.Control = this.labelControl8;
-            this.layoutControlItem41.Location = new System.Drawing.Point(0, 168);
+            this.layoutControlItem41.Location = new System.Drawing.Point(0, 184);
             this.layoutControlItem41.Name = "layoutControlItem41";
-            this.layoutControlItem41.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem41.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem41.Text = "使用处理器耗时:";
             this.layoutControlItem41.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem42
             // 
             this.layoutControlItem42.Control = this.labelControl9;
-            this.layoutControlItem42.Location = new System.Drawing.Point(0, 189);
+            this.layoutControlItem42.Location = new System.Drawing.Point(0, 207);
             this.layoutControlItem42.Name = "layoutControlItem42";
-            this.layoutControlItem42.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem42.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem42.Text = "分页系统内存大小:";
             this.layoutControlItem42.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem43
             // 
             this.layoutControlItem43.Control = this.labelControl10;
-            this.layoutControlItem43.Location = new System.Drawing.Point(0, 210);
+            this.layoutControlItem43.Location = new System.Drawing.Point(0, 230);
             this.layoutControlItem43.Name = "layoutControlItem43";
-            this.layoutControlItem43.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem43.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem43.Text = "分页内存大小:";
             this.layoutControlItem43.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem44
             // 
             this.layoutControlItem44.Control = this.labelControl11;
-            this.layoutControlItem44.Location = new System.Drawing.Point(0, 252);
+            this.layoutControlItem44.Location = new System.Drawing.Point(0, 276);
             this.layoutControlItem44.Name = "layoutControlItem44";
-            this.layoutControlItem44.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem44.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem44.Text = "线程数量:";
             this.layoutControlItem44.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem45
             // 
             this.layoutControlItem45.Control = this.labelControl12;
-            this.layoutControlItem45.Location = new System.Drawing.Point(0, 273);
+            this.layoutControlItem45.Location = new System.Drawing.Point(0, 299);
             this.layoutControlItem45.Name = "layoutControlItem45";
-            this.layoutControlItem45.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem45.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem45.Text = "进程句柄:";
             this.layoutControlItem45.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem46
             // 
             this.layoutControlItem46.Control = this.labelControl13;
-            this.layoutControlItem46.Location = new System.Drawing.Point(0, 294);
+            this.layoutControlItem46.Location = new System.Drawing.Point(0, 322);
             this.layoutControlItem46.Name = "layoutControlItem46";
-            this.layoutControlItem46.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem46.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem46.Text = "进程句柄数量:";
             this.layoutControlItem46.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem47
             // 
             this.layoutControlItem47.Control = this.labelControl14;
-            this.layoutControlItem47.Location = new System.Drawing.Point(0, 21);
+            this.layoutControlItem47.Location = new System.Drawing.Point(0, 23);
             this.layoutControlItem47.Name = "layoutControlItem47";
-            this.layoutControlItem47.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem47.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem47.Text = "进程名:";
             this.layoutControlItem47.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem48
             // 
             this.layoutControlItem48.Control = this.labelControl15;
-            this.layoutControlItem48.Location = new System.Drawing.Point(0, 315);
+            this.layoutControlItem48.Location = new System.Drawing.Point(0, 345);
             this.layoutControlItem48.Name = "layoutControlItem48";
-            this.layoutControlItem48.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem48.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem48.Text = "最大工作集:";
             this.layoutControlItem48.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem49
             // 
             this.layoutControlItem49.Control = this.labelControl16;
-            this.layoutControlItem49.Location = new System.Drawing.Point(0, 336);
+            this.layoutControlItem49.Location = new System.Drawing.Point(0, 368);
             this.layoutControlItem49.Name = "layoutControlItem49";
-            this.layoutControlItem49.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem49.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem49.Text = "最小工作集:";
             this.layoutControlItem49.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem50
             // 
             this.layoutControlItem50.Control = this.labelControl17;
-            this.layoutControlItem50.Location = new System.Drawing.Point(0, 231);
+            this.layoutControlItem50.Location = new System.Drawing.Point(0, 253);
             this.layoutControlItem50.Name = "layoutControlItem50";
-            this.layoutControlItem50.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem50.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem50.Text = "非分页系统大小:";
             this.layoutControlItem50.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem51
             // 
             this.layoutControlItem51.Control = this.labelControl18;
-            this.layoutControlItem51.Location = new System.Drawing.Point(0, 63);
+            this.layoutControlItem51.Location = new System.Drawing.Point(0, 69);
             this.layoutControlItem51.Name = "layoutControlItem51";
-            this.layoutControlItem51.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem51.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem51.Text = "虚拟内存大小:";
             this.layoutControlItem51.TextSize = new System.Drawing.Size(99, 17);
             // 
@@ -3529,83 +3276,94 @@
             this.layoutControlItem52.Control = this.labelControl19;
             this.layoutControlItem52.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem52.Name = "layoutControlItem52";
-            this.layoutControlItem52.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem52.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem52.Text = "进程ID:";
             this.layoutControlItem52.TextSize = new System.Drawing.Size(99, 17);
             // 
             // layoutControlItem53
             // 
             this.layoutControlItem53.Control = this.labelControl20;
-            this.layoutControlItem53.Location = new System.Drawing.Point(0, 357);
+            this.layoutControlItem53.Location = new System.Drawing.Point(0, 391);
             this.layoutControlItem53.Name = "layoutControlItem53";
-            this.layoutControlItem53.Size = new System.Drawing.Size(212, 21);
+            this.layoutControlItem53.Size = new System.Drawing.Size(203, 23);
             this.layoutControlItem53.Text = "启动时间:";
             this.layoutControlItem53.TextSize = new System.Drawing.Size(99, 17);
             // 
             // chartControl21
             // 
-            xyDiagram59.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram59.AxisX.WholeRange.EndSideMargin = 0D;
-            xyDiagram59.AxisX.WholeRange.StartSideMargin = 0D;
-            xyDiagram59.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl21.Diagram = xyDiagram59;
-            this.chartControl21.Legend.Font = new System.Drawing.Font("微软雅黑", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            xyDiagram19.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram19.AxisX.WholeRange.EndSideMargin = 0D;
+            xyDiagram19.AxisX.WholeRange.StartSideMargin = 0D;
+            xyDiagram19.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl21.Diagram = xyDiagram19;
+            this.chartControl21.Legend.DXFont = new DevExpress.Drawing.DXFont("微软雅黑", 8.25F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.chartControl21.Legend.LegendID = -1;
             this.chartControl21.Legend.MarkerMode = DevExpress.XtraCharts.LegendMarkerMode.CheckBox;
             this.chartControl21.Legend.Title.Text = "进程监控";
             this.chartControl21.Legend.Title.Visible = true;
             this.chartControl21.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            this.chartControl21.Location = new System.Drawing.Point(501, 44);
+            this.chartControl21.Location = new System.Drawing.Point(503, 16);
+            this.chartControl21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl21.Name = "chartControl21";
-            series81.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series81.Name = "进程运行代码耗时";
-            series81.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
-            areaSeriesView7.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series81.View = areaSeriesView7;
-            series82.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series82.Name = "内核运行代码耗时";
-            series82.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
-            areaSeriesView8.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series82.View = areaSeriesView8;
-            series83.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
-            series83.Name = "使用CPU总耗时";
-            series83.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
-            areaSeriesView9.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
-            series83.View = areaSeriesView9;
+            series25.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series25.Name = "进程运行代码耗时";
+            series25.SeriesID = 0;
+            series25.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
+            areaSeriesView1.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series25.View = areaSeriesView1;
+            series26.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series26.Name = "内核运行代码耗时";
+            series26.SeriesID = 1;
+            series26.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
+            areaSeriesView2.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series26.View = areaSeriesView2;
+            series27.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.Qualitative;
+            series27.Name = "使用CPU总耗时";
+            series27.SeriesID = 2;
+            series27.ValueScaleType = DevExpress.XtraCharts.ScaleType.TimeSpan;
+            areaSeriesView3.EmptyPointOptions.FillStyle.FillMode = DevExpress.XtraCharts.FillMode.Solid;
+            series27.View = areaSeriesView3;
             this.chartControl21.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series81,
-        series82,
-        series83};
-            this.chartControl21.Size = new System.Drawing.Size(1411, 545);
+        series25,
+        series26,
+        series27};
+            this.chartControl21.Size = new System.Drawing.Size(1405, 481);
             this.chartControl21.TabIndex = 5;
-            chartTitle11.Text = "A3服务端进程CPU监控";
+            chartTitle3.Text = "A3服务端进程CPU监控";
+            chartTitle3.TitleID = 0;
             this.chartControl21.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle11});
+            chartTitle3});
             // 
             // chartControl20
             // 
-            xyDiagram60.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram60.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram60.AxisY.GridLines.MinorVisible = true;
-            xyDiagram60.AxisY.VisibleInPanesSerializable = "-1";
-            xyDiagram60.AxisY.WholeRange.Auto = false;
-            xyDiagram60.AxisY.WholeRange.MaxValueSerializable = "100";
-            xyDiagram60.AxisY.WholeRange.MinValueSerializable = "0.01";
-            this.chartControl20.Diagram = xyDiagram60;
+            xyDiagram20.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram20.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram20.AxisY.GridLines.MinorVisible = true;
+            xyDiagram20.AxisY.VisibleInPanesSerializable = "-1";
+            xyDiagram20.AxisY.WholeRange.Auto = false;
+            xyDiagram20.AxisY.WholeRange.MaxValueSerializable = "100";
+            xyDiagram20.AxisY.WholeRange.MinValueSerializable = "0.01";
+            this.chartControl20.Diagram = xyDiagram20;
+            this.chartControl20.Legend.LegendID = -1;
             this.chartControl20.Legend.TextVisible = false;
             this.chartControl20.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            this.chartControl20.Location = new System.Drawing.Point(12, 44);
+            this.chartControl20.Location = new System.Drawing.Point(16, 16);
+            this.chartControl20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartControl20.Name = "chartControl20";
-            series84.Name = "Series 1";
-            series84.Points.AddRange(new DevExpress.XtraCharts.SeriesPoint[] {
-            seriesPoint3});
-            series84.View = stackedBarSeriesView3;
+            series28.Name = "Series 1";
+            series28.Points.AddRange(new DevExpress.XtraCharts.SeriesPoint[] {
+            seriesPoint1});
+            series28.SeriesID = 0;
+            series28.View = stackedBarSeriesView1;
             this.chartControl20.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series84};
-            this.chartControl20.Size = new System.Drawing.Size(245, 545);
+        series28};
+            this.chartControl20.Size = new System.Drawing.Size(242, 481);
             this.chartControl20.TabIndex = 4;
-            chartTitle12.Text = "进程CPU使用率";
+            chartTitle4.Text = "进程CPU使用率";
+            chartTitle4.TitleID = 0;
             this.chartControl20.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle12});
+            chartTitle4});
             // 
             // layoutControlGroup8
             // 
@@ -3614,47 +3372,383 @@
             this.layoutControlGroup8.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem33,
             this.layoutControlItem34,
-            this.layoutControlItem35,
-            this.layoutControlItem54});
+            this.layoutControlItem35});
             this.layoutControlGroup8.Name = "layoutControlGroup8";
-            this.layoutControlGroup8.Size = new System.Drawing.Size(1924, 601);
+            this.layoutControlGroup8.Size = new System.Drawing.Size(1924, 513);
             this.layoutControlGroup8.TextVisible = false;
             // 
             // layoutControlItem33
             // 
             this.layoutControlItem33.Control = this.chartControl20;
-            this.layoutControlItem33.Location = new System.Drawing.Point(0, 32);
+            this.layoutControlItem33.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem33.Name = "layoutControlItem33";
-            this.layoutControlItem33.Size = new System.Drawing.Size(249, 549);
+            this.layoutControlItem33.Size = new System.Drawing.Size(248, 487);
             this.layoutControlItem33.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem33.TextVisible = false;
             // 
             // layoutControlItem34
             // 
             this.layoutControlItem34.Control = this.chartControl21;
-            this.layoutControlItem34.Location = new System.Drawing.Point(489, 32);
+            this.layoutControlItem34.Location = new System.Drawing.Point(487, 0);
             this.layoutControlItem34.Name = "layoutControlItem34";
-            this.layoutControlItem34.Size = new System.Drawing.Size(1415, 549);
+            this.layoutControlItem34.Size = new System.Drawing.Size(1411, 487);
             this.layoutControlItem34.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem34.TextVisible = false;
             // 
             // layoutControlItem35
             // 
             this.layoutControlItem35.Control = this.groupControl2;
-            this.layoutControlItem35.Location = new System.Drawing.Point(249, 32);
+            this.layoutControlItem35.Location = new System.Drawing.Point(248, 0);
             this.layoutControlItem35.Name = "layoutControlItem35";
-            this.layoutControlItem35.Size = new System.Drawing.Size(240, 549);
+            this.layoutControlItem35.Size = new System.Drawing.Size(239, 487);
             this.layoutControlItem35.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem35.TextVisible = false;
             // 
-            // layoutControlItem54
+            // navigationPage8
             // 
-            this.layoutControlItem54.Control = this.toggleSwitch2;
-            this.layoutControlItem54.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem54.Name = "layoutControlItem54";
-            this.layoutControlItem54.Size = new System.Drawing.Size(1904, 32);
-            this.layoutControlItem54.Text = "启用监控:";
-            this.layoutControlItem54.TextSize = new System.Drawing.Size(51, 17);
+            this.navigationPage8.Controls.Add(this.panelControl2);
+            this.navigationPage8.Name = "navigationPage8";
+            this.navigationPage8.Size = new System.Drawing.Size(1924, 436);
+            // 
+            // panelControl2
+            // 
+            this.panelControl2.Controls.Add(this.layoutControl3);
+            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl2.Location = new System.Drawing.Point(0, 0);
+            this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(1924, 436);
+            this.panelControl2.TabIndex = 0;
+            // 
+            // layoutControl3
+            // 
+            this.layoutControl3.Controls.Add(this.gridControl5);
+            this.layoutControl3.Controls.Add(this.labelControl2);
+            this.layoutControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl3.Location = new System.Drawing.Point(2, 2);
+            this.layoutControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.layoutControl3.Name = "layoutControl3";
+            this.layoutControl3.Root = this.layoutControlGroup7;
+            this.layoutControl3.Size = new System.Drawing.Size(1920, 432);
+            this.layoutControl3.TabIndex = 0;
+            this.layoutControl3.Text = "layoutControl3";
+            // 
+            // gridControl5
+            // 
+            this.gridControl5.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gridControl5.Location = new System.Drawing.Point(16, 39);
+            this.gridControl5.MainView = this.gridView5;
+            this.gridControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gridControl5.MenuManager = this.ribbon;
+            this.gridControl5.Name = "gridControl5";
+            this.gridControl5.Size = new System.Drawing.Size(1888, 366);
+            this.gridControl5.TabIndex = 7;
+            this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView5});
+            this.gridControl5.Click += new System.EventHandler(this.gridControl5_Click);
+            this.gridControl5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.gridControl5_MouseClick);
+            // 
+            // gridView5
+            // 
+            this.gridView5.DetailHeight = 288;
+            this.gridView5.GridControl = this.gridControl5;
+            this.gridView5.Name = "gridView5";
+            this.gridView5.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.gridView5_PopupMenuShowing);
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(16, 16);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(1418, 17);
+            this.labelControl2.StyleController = this.layoutControl3;
+            this.labelControl2.TabIndex = 6;
+            this.labelControl2.Text = "提示:通过自定义的CRON表达式进行重启(硬重启，直接结束当前服务端进程然后再次创建，玩家会显示连接丢失)，建议不要和脚本重启一起使用，脚本会自动完成重启操作，并" +
+    "且进程的ID未知，CRON重启是操作的进程ID，它会自动保存创建的进程ID以用于操作重启";
+            // 
+            // layoutControlGroup7
+            // 
+            this.layoutControlGroup7.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup7.GroupBordersVisible = false;
+            this.layoutControlGroup7.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.emptySpaceItem2,
+            this.layoutControlItem12,
+            this.layoutControlItem7});
+            this.layoutControlGroup7.Name = "layoutControlGroup7";
+            this.layoutControlGroup7.Size = new System.Drawing.Size(1920, 432);
+            this.layoutControlGroup7.TextVisible = false;
+            // 
+            // emptySpaceItem2
+            // 
+            this.emptySpaceItem2.AllowHotTrack = false;
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 395);
+            this.emptySpaceItem2.Name = "emptySpaceItem2";
+            this.emptySpaceItem2.Size = new System.Drawing.Size(1894, 11);
+            this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem12
+            // 
+            this.layoutControlItem12.Control = this.labelControl2;
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem12.Name = "layoutControlItem12";
+            this.layoutControlItem12.Size = new System.Drawing.Size(1894, 23);
+            this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem12.TextVisible = false;
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.gridControl5;
+            this.layoutControlItem7.Location = new System.Drawing.Point(0, 23);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.Size = new System.Drawing.Size(1894, 372);
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem7.TextVisible = false;
+            // 
+            // navigationPage9
+            // 
+            this.navigationPage9.Controls.Add(this.panelControl1);
+            this.navigationPage9.Name = "navigationPage9";
+            this.navigationPage9.Size = new System.Drawing.Size(1924, 436);
+            // 
+            // panelControl1
+            // 
+            this.panelControl1.Controls.Add(this.layoutControl2);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelControl1.Name = "panelControl1";
+            this.panelControl1.Size = new System.Drawing.Size(1924, 436);
+            this.panelControl1.TabIndex = 0;
+            // 
+            // layoutControl2
+            // 
+            this.layoutControl2.Controls.Add(this.labelControl1);
+            this.layoutControl2.Controls.Add(this.toggleSwitch4);
+            this.layoutControl2.Controls.Add(this.simpleButton1);
+            this.layoutControl2.Controls.Add(this.toggleSwitch3);
+            this.layoutControl2.Controls.Add(this.spinEdit2);
+            this.layoutControl2.Controls.Add(this.textEdit2);
+            this.layoutControl2.Controls.Add(this.spinEdit1);
+            this.layoutControl2.Controls.Add(this.toggleSwitch1);
+            this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl2.Location = new System.Drawing.Point(2, 2);
+            this.layoutControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.layoutControl2.Name = "layoutControl2";
+            this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(1321, 650, 650, 400);
+            this.layoutControl2.Root = this.layoutControlGroup6;
+            this.layoutControl2.Size = new System.Drawing.Size(1920, 432);
+            this.layoutControl2.TabIndex = 0;
+            this.layoutControl2.Text = "layoutControl2";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
+            this.labelControl1.Location = new System.Drawing.Point(16, 16);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(403, 17);
+            this.labelControl1.StyleController = this.layoutControl2;
+            this.labelControl1.TabIndex = 11;
+            this.labelControl1.Text = "注意:开服工具的目录不要太深，否则打包会失败!建议放到例如:X:\\XXX\\目录";
+            // 
+            // toggleSwitch4
+            // 
+            this.toggleSwitch4.Location = new System.Drawing.Point(286, 39);
+            this.toggleSwitch4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.toggleSwitch4.MenuManager = this.ribbon;
+            this.toggleSwitch4.Name = "toggleSwitch4";
+            this.toggleSwitch4.Properties.OffText = "已禁用";
+            this.toggleSwitch4.Properties.OnText = "已启用";
+            this.toggleSwitch4.Size = new System.Drawing.Size(1618, 28);
+            this.toggleSwitch4.StyleController = this.layoutControl2;
+            this.toggleSwitch4.TabIndex = 10;
+            this.toggleSwitch4.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch4_EditValueChanging);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(16, 255);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(1888, 32);
+            this.simpleButton1.StyleController = this.layoutControl2;
+            this.simpleButton1.TabIndex = 9;
+            this.simpleButton1.Text = "生成服务端模组";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // toggleSwitch3
+            // 
+            this.toggleSwitch3.Location = new System.Drawing.Point(286, 73);
+            this.toggleSwitch3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.toggleSwitch3.MenuManager = this.ribbon;
+            this.toggleSwitch3.Name = "toggleSwitch3";
+            this.toggleSwitch3.Properties.OffText = "已禁用";
+            this.toggleSwitch3.Properties.OnText = "已启用";
+            this.toggleSwitch3.Size = new System.Drawing.Size(1618, 28);
+            this.toggleSwitch3.StyleController = this.layoutControl2;
+            this.toggleSwitch3.TabIndex = 8;
+            this.toggleSwitch3.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch3_EditValueChanging);
+            // 
+            // spinEdit2
+            // 
+            this.spinEdit2.EditValue = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.spinEdit2.Location = new System.Drawing.Point(286, 217);
+            this.spinEdit2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.spinEdit2.MenuManager = this.ribbon;
+            this.spinEdit2.Name = "spinEdit2";
+            this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit2.Size = new System.Drawing.Size(1618, 32);
+            this.spinEdit2.StyleController = this.layoutControl2;
+            this.spinEdit2.TabIndex = 7;
+            this.spinEdit2.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.spinEdit2_EditValueChanging);
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.EditValue = "服务器马上重启一会儿就好了";
+            this.textEdit2.Location = new System.Drawing.Point(286, 179);
+            this.textEdit2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textEdit2.MenuManager = this.ribbon;
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(1618, 32);
+            this.textEdit2.StyleController = this.layoutControl2;
+            this.textEdit2.TabIndex = 6;
+            this.textEdit2.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.textEdit2_EditValueChanging);
+            // 
+            // spinEdit1
+            // 
+            this.spinEdit1.EditValue = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.spinEdit1.Location = new System.Drawing.Point(286, 141);
+            this.spinEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.spinEdit1.MenuManager = this.ribbon;
+            this.spinEdit1.Name = "spinEdit1";
+            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit1.Size = new System.Drawing.Size(1618, 32);
+            this.spinEdit1.StyleController = this.layoutControl2;
+            this.spinEdit1.TabIndex = 5;
+            this.spinEdit1.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.spinEdit1_EditValueChanging);
+            // 
+            // toggleSwitch1
+            // 
+            this.toggleSwitch1.Location = new System.Drawing.Point(286, 107);
+            this.toggleSwitch1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.toggleSwitch1.MenuManager = this.ribbon;
+            this.toggleSwitch1.Name = "toggleSwitch1";
+            this.toggleSwitch1.Properties.OffText = "已禁用";
+            this.toggleSwitch1.Properties.OnText = "已启用";
+            this.toggleSwitch1.Size = new System.Drawing.Size(1618, 28);
+            this.toggleSwitch1.StyleController = this.layoutControl2;
+            this.toggleSwitch1.TabIndex = 4;
+            this.toggleSwitch1.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.toggleSwitch1_EditValueChanging);
+            // 
+            // layoutControlGroup6
+            // 
+            this.layoutControlGroup6.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup6.GroupBordersVisible = false;
+            this.layoutControlGroup6.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem26,
+            this.emptySpaceItem1,
+            this.layoutControlItem27,
+            this.layoutControlItem28,
+            this.layoutControlItem29,
+            this.layoutControlItem30,
+            this.layoutControlItem31,
+            this.layoutControlItem32,
+            this.layoutControlItem10});
+            this.layoutControlGroup6.Name = "Root";
+            this.layoutControlGroup6.Size = new System.Drawing.Size(1920, 432);
+            this.layoutControlGroup6.TextVisible = false;
+            // 
+            // layoutControlItem26
+            // 
+            this.layoutControlItem26.ContentVertAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.layoutControlItem26.Control = this.toggleSwitch1;
+            this.layoutControlItem26.CustomizationFormText = "启用脚本重启:";
+            this.layoutControlItem26.Location = new System.Drawing.Point(0, 91);
+            this.layoutControlItem26.Name = "layoutControlItem26";
+            this.layoutControlItem26.Size = new System.Drawing.Size(1894, 34);
+            this.layoutControlItem26.Text = "开启重启服务:";
+            this.layoutControlItem26.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // emptySpaceItem1
+            // 
+            this.emptySpaceItem1.AllowHotTrack = false;
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 277);
+            this.emptySpaceItem1.Name = "emptySpaceItem1";
+            this.emptySpaceItem1.Size = new System.Drawing.Size(1894, 129);
+            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem27
+            // 
+            this.layoutControlItem27.Control = this.spinEdit1;
+            this.layoutControlItem27.Location = new System.Drawing.Point(0, 125);
+            this.layoutControlItem27.Name = "layoutControlItem27";
+            this.layoutControlItem27.Size = new System.Drawing.Size(1894, 38);
+            this.layoutControlItem27.Text = "多久后重启(单位是小时):";
+            this.layoutControlItem27.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // layoutControlItem28
+            // 
+            this.layoutControlItem28.Control = this.textEdit2;
+            this.layoutControlItem28.Location = new System.Drawing.Point(0, 163);
+            this.layoutControlItem28.Name = "layoutControlItem28";
+            this.layoutControlItem28.Size = new System.Drawing.Size(1894, 38);
+            this.layoutControlItem28.Text = "重启时显示的消息:";
+            this.layoutControlItem28.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // layoutControlItem29
+            // 
+            this.layoutControlItem29.Control = this.spinEdit2;
+            this.layoutControlItem29.Location = new System.Drawing.Point(0, 201);
+            this.layoutControlItem29.Name = "layoutControlItem29";
+            this.layoutControlItem29.Size = new System.Drawing.Size(1894, 38);
+            this.layoutControlItem29.Text = "重启延迟(到时间后延迟多久立即重启,单位是秒):";
+            this.layoutControlItem29.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // layoutControlItem30
+            // 
+            this.layoutControlItem30.Control = this.toggleSwitch3;
+            this.layoutControlItem30.Location = new System.Drawing.Point(0, 57);
+            this.layoutControlItem30.Name = "layoutControlItem30";
+            this.layoutControlItem30.Size = new System.Drawing.Size(1894, 34);
+            this.layoutControlItem30.Text = "开启统计服务:";
+            this.layoutControlItem30.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // layoutControlItem31
+            // 
+            this.layoutControlItem31.Control = this.simpleButton1;
+            this.layoutControlItem31.Location = new System.Drawing.Point(0, 239);
+            this.layoutControlItem31.Name = "layoutControlItem31";
+            this.layoutControlItem31.Size = new System.Drawing.Size(1894, 38);
+            this.layoutControlItem31.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem31.TextVisible = false;
+            // 
+            // layoutControlItem32
+            // 
+            this.layoutControlItem32.Control = this.toggleSwitch4;
+            this.layoutControlItem32.Location = new System.Drawing.Point(0, 23);
+            this.layoutControlItem32.Name = "layoutControlItem32";
+            this.layoutControlItem32.Size = new System.Drawing.Size(1894, 34);
+            this.layoutControlItem32.Text = "启用服务";
+            this.layoutControlItem32.TextSize = new System.Drawing.Size(254, 17);
+            // 
+            // layoutControlItem10
+            // 
+            this.layoutControlItem10.Control = this.labelControl1;
+            this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem10.Name = "layoutControlItem10";
+            this.layoutControlItem10.Size = new System.Drawing.Size(1894, 23);
+            this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem10.TextVisible = false;
             // 
             // a3_player_infoBindingSource2
             // 
@@ -3732,9 +3826,10 @@
             // 
             // ServerStatisticsManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.Appearance.Options.UseFont = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 895);
+            this.ClientSize = new System.Drawing.Size(1924, 737);
             this.Controls.Add(this.tabPane1);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
@@ -3742,6 +3837,7 @@
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
+            this.Font = new System.Drawing.Font("Tahoma", 9F);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ServerStatisticsManagement";
@@ -3758,101 +3854,101 @@
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
             this.tabPane1.ResumeLayout(false);
-            this.tabNavigationPage1.ResumeLayout(false);
+            this.navigationPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            this.tabNavigationPage2.ResumeLayout(false);
+            this.navigationPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_object_manipulation_numBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedAreaSeriesView17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.queryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(swiftPlotDiagram3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(swiftPointSeriesView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(swiftPlotDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(swiftPointSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
@@ -3883,53 +3979,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            this.tabNavigationPage3.ResumeLayout(false);
+            this.navigationPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            this.tabNavigationPage4.ResumeLayout(false);
+            this.navigationPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
-            this.tabNavigationPage5.ResumeLayout(false);
+            this.navigationPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
-            this.tabNavigationPage6.ResumeLayout(false);
+            this.navigationPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
-            this.tabNavigationPage8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).EndInit();
-            this.layoutControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            this.tabNavigationPage9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
-            this.layoutControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
-            this.tabNavigationPage7.ResumeLayout(false);
+            this.navigationPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl4)).EndInit();
             this.layoutControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl5)).EndInit();
@@ -3954,23 +4017,54 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem51)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem52)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series81)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(areaSeriesView9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(areaSeriesView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram60)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series84)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem54)).EndInit();
+            this.navigationPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            this.panelControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl3)).EndInit();
+            this.layoutControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
+            this.navigationPage9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
+            this.panelControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
+            this.layoutControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.a3_player_infoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu2)).EndInit();
@@ -3994,15 +4088,14 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
-        private DevExpress.XtraBars.Navigation.TabPane tabPane1;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage1;
+        private DevExpress.XtraBars.Navigation.NavigationFrame tabPane1;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraBars.BarStaticItem barStaticItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage2;
+
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraCharts.ChartControl chartControl1;
         private DevExpress.XtraLayout.LayoutControlGroup Root;
@@ -4045,10 +4138,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
         private DevExpress.XtraBars.BarButtonItem barButtonItem25;
         private DevExpress.XtraBars.BarButtonItem barButtonItem26;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage3;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage4;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage5;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage6;
+
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraBars.BarManager barManager1;
@@ -4128,14 +4218,14 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.BarCheckItem barCheckItem1;
         private DevExpress.XtraBars.BarToggleSwitchItem barToggleSwitchItem4;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage8;
+
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraLayout.LayoutControl layoutControl3;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup7;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage9;
+
         private DevExpress.XtraBars.BarButtonItem barButtonItem38;
         private DevExpress.XtraBars.BarButtonItem barButtonItem39;
         private DevExpress.XtraBars.BarButtonItem barButtonItem40;
@@ -4204,7 +4294,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem45;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage7;
+
         private DevExpress.XtraLayout.LayoutControl layoutControl4;
         private DevExpress.XtraCharts.ChartControl chartControl21;
         private DevExpress.XtraCharts.ChartControl chartControl20;
@@ -4252,7 +4342,17 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem52;
         private DevExpress.XtraEditors.LabelControl labelControl20;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem53;
-        private DevExpress.XtraEditors.ToggleSwitch toggleSwitch2;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem54;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage1;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage2;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage3;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage4;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage5;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage6;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage7;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage8;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage9;
+        private DevExpress.XtraBars.BarToggleSwitchItem barToggleSwitchItem5;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
     }
 }

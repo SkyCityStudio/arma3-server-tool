@@ -2,6 +2,7 @@
 using a3.Tools;
 using Arma3ServerTools.Entity;
 using BytexDigital.BattlEye.Rcon.Domain;
+using DevExpress.Xpo.Metadata;
 using Quartz;
 using Quartz.Impl;
 using System;
@@ -16,7 +17,7 @@ namespace a3.Config
     public class DefaultConfig
     {
 
-        public static string Version = "1.0.9.2";
+        public static string Version = "1.0.9.5";
 
         public static ISchedulerFactory schedFact = new StdSchedulerFactory();
 
@@ -58,5 +59,7 @@ namespace a3.Config
         public static string Comma = ",";
 
         public static string Tab = "    ";
+
+        public static Dictionary<string, RconEntity> RconMap { get; set; } = new Dictionary<string, RconEntity>();
     }
 }

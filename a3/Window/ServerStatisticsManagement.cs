@@ -93,14 +93,7 @@ namespace a3.Window
             TaskCronDataTable.Columns.Add("状态", typeof(string));
             //gridControl5.DataSource = TaskCronDataTable;
 
-            tabNavigationPage1.PageVisible = false;
-            tabNavigationPage2.PageVisible = false;
-            tabNavigationPage3.PageVisible = false;
-            tabNavigationPage4.PageVisible = false;
-            tabNavigationPage5.PageVisible = false;
-            tabNavigationPage6.PageVisible = false;
-            tabNavigationPage8.PageVisible = false;
-            tabNavigationPage9.PageVisible = false;
+
 
             SqliteUtils.init();
             ProcessMonitoringTaskRun = true;
@@ -128,18 +121,24 @@ namespace a3.Window
                 TotalProcessorTime.ValueScaleType = ScaleType.TimeSpan;
                 while (ProcessMonitoringTaskRun)
                 {
-                    Thread.Sleep(1000);
-                    if (toggleSwitch2.IsOn) {
+                    Task.Delay(1000);
+                    if (barToggleSwitchItem5.Checked) {
                         try
                         {
                             if (process == null && DefaultConfig.ServerList.ContainsKey(serverConfig.ServerUUID))
                             {
                                 process = Process.GetProcessById(DefaultConfig.ServerList[serverConfig.ServerUUID].ServerTaskManagement.ProcessById);
                             }
+                            if (process.Id == 0) {
+                                process = null;
+                                continue;
+                            }
+
                             process.Refresh();
                             var cl = process.TotalProcessorTime;
-                            Thread.Sleep(1000);
+                            Task.Delay(1000);
                             double value = (process.TotalProcessorTime - cl).TotalMilliseconds / 1000 / Environment.ProcessorCount * 100;
+
                             this.Invoke(new Action(() =>
                             {
                                 total.Points[0].Values[0] = (double)decimal.Round(decimal.Parse(value.ToString()), 2);
@@ -266,7 +265,7 @@ namespace a3.Window
 
         private void NetworkClient_Disconnected(object sender, EventArgs e)
         {
-            barButtonItem44.Enabled = false;
+            barButtonItem44.Enabled = true;
         }
 
         public void UserControl_Init()
@@ -636,6 +635,7 @@ namespace a3.Window
                 {
                     string PlayerGUID = gridView1.GetFocusedRowCellValue("GUID").ToString();
                     string PlayerIP = gridView1.GetFocusedRowCellValue("IP").ToString();
+                    int PlayerId = Convert.ToInt32(gridView1.GetFocusedRowCellValue("ID"));
                     if (dlg.BanType)
                     {
                         TimeSpan timeSpan = new TimeSpan(0, 0, dlg.Date, 0, 0);
@@ -643,15 +643,21 @@ namespace a3.Window
                         {
 
                             networkClient.Send(new BanOnlinePlayerCommand(PlayerGUID, dlg.Reason, timeSpan));
+                            networkClient.Send(new BanPlayerCommand(PlayerGUID, dlg.Reason, timeSpan));
+                            networkClient.Send(new KickCommand(PlayerId, dlg.Reason));
                         }
                         if (dlg.IP)
                         {
                             networkClient.Send(new BanOnlinePlayerCommand(PlayerIP, dlg.Reason, timeSpan));
+                            networkClient.Send(new BanPlayerCommand(PlayerIP, dlg.Reason, timeSpan));
+                            networkClient.Send(new KickCommand(PlayerId, dlg.Reason));
                         }
                     }
                     else
                     {
                         networkClient.Send(new BanOnlinePlayerCommand(PlayerIP, dlg.Reason));
+                        networkClient.Send(new BanPlayerCommand(PlayerIP, dlg.Reason));
+                        networkClient.Send(new KickCommand(PlayerId, dlg.Reason));
                     }
                 }
             }
@@ -1017,7 +1023,10 @@ namespace a3.Window
         private void barButtonItem12_ItemClick(object sender, ItemClickEventArgs e)
         {
             Task.Run(() => LoadPlayers());
+
             tabPane1.SelectedPageIndex = 0;
+     
+            
         }
 
         private void barButtonItem16_ItemClick(object sender, ItemClickEventArgs e)
@@ -1047,6 +1056,9 @@ namespace a3.Window
                     barButtonItem9_ItemClick(null, null);
                     break;
                 case 2:
+                    tabPane1.SelectedPageIndex = 7;
+                    break;
+                case 3:
                     tabPane1.SelectedPageIndex = 6;
                     break;
             }
@@ -1211,12 +1223,12 @@ namespace a3.Window
 
         private void barButtonItem36_ItemClick(object sender, ItemClickEventArgs e)
         {
-            tabPane1.SelectedPageIndex = 6;
+            tabPane1.SelectedPageIndex = 7;
         }
 
         private void barButtonItem37_ItemClick(object sender, ItemClickEventArgs e)
         {
-            tabPane1.SelectedPageIndex = 7;
+            tabPane1.SelectedPageIndex = 8;
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)

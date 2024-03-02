@@ -5,7 +5,6 @@ using a3.Modules;
 using a3.test;
 using a3.Tools;
 using a3.Window;
-using AppUpdate;
 using Arma3ServerTools.Entity;
 using Arma3ServerTools.Window;
 using CronExpressionDescriptor;
@@ -32,6 +31,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
+
 
 namespace a3
 {
@@ -69,14 +69,15 @@ namespace a3
             {
                 
                 string version = httpHelper.DoGet("http://tools.destiny.cool/arma3_server_tools/version.txt", null);
-                if (string.IsNullOrEmpty(version))
+                if (string.IsNullOrEmpty(version) || version != DefaultConfig.Version)
                 {
-                    XtraMessageBox.Show("检测更新失败!请前往 https://destiny.cool/s/arma3-tool 下载最新版本!", "失败", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    XtraMessageBox.Show("检测更新失败!请前往 https://destiny.cool/s/arma3-tool 下载最新版本!或QQ群文件:977432417\r\n1.您仍可以继续使用此版本，但是可能伴随着些许错误或问题！\r\n2.您可以按上述方法下载最新版本，可能解决了您提交的问题！", "失败", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else {
+                    /*
                     string path = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
                     if (!DefaultConfig.Version.Equals(version)) {
-                        Process.Start("https://destiny.cool/s/arma3-tool");
+                        Process.Start("https://destiny.cool/arma3-tool");
                         ProcessStartInfo startInfo = new ProcessStartInfo
                         {
                             Arguments = DefaultConfig.Version,
@@ -84,11 +85,12 @@ namespace a3
                         };
                         Process.Start(startInfo);
                         Process.GetCurrentProcess().Kill();
-                    }
+                    }*/
                 }
                 
             }
-            catch { 
+            catch {
+                XtraMessageBox.Show("检测更新失败!请前往 https://destiny.cool/s/arma3-tool 下载最新版本!或QQ群文件:977432417\r\n1.您仍可以继续使用此版本，但是可能伴随着些许错误或问题！\r\n2.您可以按上述方法下载最新版本，可能解决了您提交的问题！", "失败", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             DefaultConfig.StartIScheduler();
             SaveInfoTip = barStaticItem2;
@@ -267,14 +269,8 @@ namespace a3
         private async void FluentDesignForm_Load(object sender, EventArgs e)
         {
 
-            this.Text = "武装突袭3 开服工具 测试版 V" + DefaultConfig.Version;
-            try
-            {
-                LoadSkin();
-            }
-            catch 
-            {
-            }
+            Text = "武装突袭3 开服工具 测试版 V" + DefaultConfig.Version;
+            LoadSkin();
             //this.fluentDesignFormContainer1.Controls.Add(new IndexUserControl() { Dock = DockStyle.Fill });
             this.ItemNav.Caption = "服务器列表";
 
@@ -482,6 +478,17 @@ namespace a3
                 ModulesInfo.Add(new ModuleInfo("QuickConfigurationWizardControl", "a3.Modules.QuickConfigurationWizardControl"));
             }
             NavName = "QuickConfigurationWizardControl";
+            await LoadModuleAsync(ModulesInfo.GetItem(NavName));
+        }
+
+        private async void accordionControlElement2_Click_1(object sender, EventArgs e)
+        {
+            this.ItemNav.Caption = "RCON管理器";
+            if (ModulesInfo.GetItem("RconUserControl") == null)
+            {
+                ModulesInfo.Add(new ModuleInfo("RconUserControl", "a3.Modules.RconUserControl"));
+            }
+            NavName = "RconUserControl";
             await LoadModuleAsync(ModulesInfo.GetItem(NavName));
         }
     }

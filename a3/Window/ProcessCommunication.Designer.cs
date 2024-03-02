@@ -36,21 +36,24 @@
             // marqueeProgressBarControl1
             // 
             this.marqueeProgressBarControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.marqueeProgressBarControl1.EditValue = 0;
             this.marqueeProgressBarControl1.Location = new System.Drawing.Point(0, 0);
             this.marqueeProgressBarControl1.Name = "marqueeProgressBarControl1";
+            this.marqueeProgressBarControl1.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.marqueeProgressBarControl1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.marqueeProgressBarControl1.Size = new System.Drawing.Size(655, 33);
             this.marqueeProgressBarControl1.TabIndex = 0;
             // 
             // labelControl1
             // 
-            this.labelControl1.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.labelControl1.Appearance.Options.UseBackColor = true;
+            this.labelControl1.Appearance.BackColor = System.Drawing.SystemColors.Window;
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Location = new System.Drawing.Point(191, 8);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(283, 17);
             this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "正在尝试启动进程通信模块与ARMA3服务端进行通信";
+            this.labelControl1.Text = "正在加载进程通信模块与ARMA3服务端扩展进行通信";
             this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
             // 
             // ProcessCommunication
@@ -66,7 +69,6 @@
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.None;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ProcessCommunication";
-            this.Text = "A3-DestinyStudio-ProcessCommunicationModule";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.ProcessCommunication_Load);
             ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl1.Properties)).EndInit();

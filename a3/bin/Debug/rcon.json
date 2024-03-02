@@ -1,0 +1,30 @@
+{
+  "272bd6a6315e441086edb4095af97979": {
+    "id": "272bd6a6315e441086edb4095af97979",
+    "ServerName": "娱乐至上",
+    "IP": "127.0.0.1",
+    "Port": 2210,
+    "Password": "123456"
+  },
+  "45fdc0eeee1d4ec6bf578c63abb56d3e": {
+    "id": "45fdc0eeee1d4ec6bf578c63abb56d3e",
+    "ServerName": "娱乐至上",
+    "IP": "3",
+    "Port": 2210,
+    "Password": "4"
+  },
+  "59fbe86b1e38409b867095c65bf9c122": {
+    "id": "59fbe86b1e38409b867095c65bf9c122",
+    "ServerName": "某服配置3",
+    "IP": "44",
+    "Port": 2210,
+    "Password": "44"
+  },
+  "a9fe1492148e471c9d43aa32d63e6df9": {
+    "id": "a9fe1492148e471c9d43aa32d63e6df9",
+    "ServerName": "某服配置1111",
+    "IP": "127.0.0.1",
+    "Port": 2210,
+    "Password": "123456"
+  }
+}

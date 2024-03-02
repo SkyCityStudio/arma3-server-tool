@@ -56,10 +56,10 @@ namespace Arma3ServerTools.Dialog
         private void simpleButton2_Click(object sender, EventArgs e)
         {
 
-            string url = XtraInputBox.Show("请输入bans.txt的url文件地址!例如:http://tools.arma3bbs.com/arma3_server_tools/bans.txt", "输入地址", "", MessageBoxButtons.OKCancel);
+            string url = XtraInputBox.Show("请输入bans.txt的url文件地址!例如:http://tools.destiny.cool/arma3_server_tools/bans.txt", "输入地址", "", MessageBoxButtons.OKCancel);
 
             for (int i=0;i< DefaultConfig.bansUrlEntities.Count;i++) {
-                if ("http://tools.arma3bbs.com/arma3_server_tools/bans.txt".Equals(url))
+                if ("http://tools.destiny.cool/arma3_server_tools/bans.txt".Equals(url))
                 {
                     XtraMessageBox.Show("不能添加重复的url!", "错误!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -85,12 +85,12 @@ namespace Arma3ServerTools.Dialog
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             string str1 = gridView1.GetFocusedRowCellValue("封禁文件Url").ToString();
-            if (str1.Equals("http://tools.arma3bbs.com/arma3_server_tools/bans.txt"))
+            if (str1.Equals("http://tools.destiny.cool/arma3_server_tools/bans.txt"))
             {
                 XtraMessageBox.Show("此Url无法删除!因为它是配置好的默认URL路径!", "操作提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
-            if (XtraMessageBox.Show("你确定要这个共享bans url吗?\r\nurl路径:" + str1, "操作提示", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (XtraMessageBox.Show("你确定要删除这个共享bans url吗?\r\nurl路径:" + str1, "操作提示", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
 
                 BansUrlEntity sc = null;

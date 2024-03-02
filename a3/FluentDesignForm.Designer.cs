@@ -74,6 +74,7 @@
             this.accordionControlElementDifficultySetting = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElementPerformanceSettings = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElementLogSettings = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElementBans = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
@@ -335,7 +336,8 @@
             this.accordionControlElementModSettings,
             this.accordionControlElementDifficultySetting,
             this.accordionControlElementPerformanceSettings,
-            this.accordionControlElementLogSettings});
+            this.accordionControlElementLogSettings,
+            this.accordionControlElement2});
             this.accordionControlElementIndex.Expanded = true;
             this.accordionControlElementIndex.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElementIndex.ImageOptions.SvgImage")));
             this.accordionControlElementIndex.Name = "accordionControlElementIndex";
@@ -428,6 +430,16 @@
             this.accordionControlElementLogSettings.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElementLogSettings.Text = "日志设置";
             this.accordionControlElementLogSettings.Click += new System.EventHandler(this.accordionControlElementLogSettings_Click);
+            // 
+            // accordionControlElement2
+            // 
+            this.accordionControlElement2.Appearance.Default.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement2.Appearance.Default.Options.UseFont = true;
+            this.accordionControlElement2.ImageOptions.SvgImage = global::Arma3ServerTools.Properties.Resources.yellowdatabargradient;
+            this.accordionControlElement2.Name = "accordionControlElement2";
+            this.accordionControlElement2.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement2.Text = "RCON远程管理";
+            this.accordionControlElement2.Click += new System.EventHandler(this.accordionControlElement2_Click_1);
             // 
             // accordionControlElementBans
             // 
@@ -569,5 +581,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElementBans;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement2;
     }
 }

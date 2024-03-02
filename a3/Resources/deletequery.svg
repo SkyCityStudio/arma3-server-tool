@@ -1,0 +1,23 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+	.st3{fill:#FFB115;}
+</style>
+  <g />
+  <g id="DeleteQuery">
+    <path d="M8,10H0v6h8V10z M8,2H0v6h8V2z M18,2h-8v6h8V2z M18,10h-8v6h8V10z" class="Green" />
+    <g class="st1">
+      <path d="M28,16h-8v-6h8V16z M28,2h-8v6h8V2z M0,24h8v-6H0V24z M10,24h8v-6h-8V24z" class="Black" />
+    </g>
+    <polygon points="32,20 30,18 26,22 22,18 20,20 24,24 20,28 22,30 26,26 30,30 32,28 28,24  " class="Red" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "8ec7ce6ff15e499bb675aeb1bd4e1fc1": {
+    "id": "8ec7ce6ff15e499bb675aeb1bd4e1fc1",
+    "ServerName": "娱乐至上",
+    "IP": "2",
+    "Port": 2210,
+    "Password": "3"
+  },
+  "c471d26d856147f5a86da370680099d4": {
+    "id": "c471d26d856147f5a86da370680099d4",
+    "ServerName": "某服配置3",
+    "IP": "4",
+    "Port": 2210,
+    "Password": "5"
+  }
+}

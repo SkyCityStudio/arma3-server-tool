@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+	.st3{fill:#FFB115;}
+</style>
+  <g />
+  <g id="EditRules">
+    <rect x="12" y="4" width="8" height="6" class="Yellow" />
+    <rect x="2" y="12" width="8" height="6" class="Red" />
+    <rect x="22" y="20" width="8" height="6" class="Green" />
+    <g class="st1">
+      <path d="M12,12h8v6h-8V12z M10,10V4H2v6H10z M22,10h8V4h-8V10z M22,18h8v-6h-8V18z M12,20v6h8v-6H12z M10,26v-6H2v6    H10z" class="Black" />
+    </g>
+  </g>
+</svg>
