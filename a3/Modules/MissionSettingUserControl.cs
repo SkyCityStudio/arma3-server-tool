@@ -1,6 +1,7 @@
 ﻿using a3.Config;
 using a3.Entity;
 using a3.Tools;
+using a3.Window;
 using DevExpress.DataAccess.Json;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Repository;
@@ -12,6 +13,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -159,6 +161,35 @@ namespace a3.Modules
                 DefaultConfig.DefaultServer.MissionParams.Remove(MissionsID);
             }
             DefaultConfig.DefaultServer.MissionParams.Add(MissionsID, (string)e.NewValue);
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            Retry:
+                string name = XtraInputBox.Show("请输入复制的创意工坊地图url链接或ID(例如:https://steamcommunity.com/sharedfiles/filedetails/?id=XXX&searchtext=)", "输入地图ID或链接", "");
+                if (!string.IsNullOrEmpty(name))
+                {
+                    Match match = Regex.Match(name, @"id=(\d+)");
+                    DownloadMission downloadMission = new DownloadMission();
+                    if (match.Success)
+                    {
+                        string id = match.Groups[1].Value;
+                        downloadMission.id = id;
+                        downloadMission.Show();
+                     }
+                    else if (Regex.IsMatch(name, @"^[1-9][0-9]*$"))
+                    {
+                        downloadMission.id = name.Trim();
+                        downloadMission.Show();
+                    }
+                    else if (XtraMessageBox.Show("请输入正确的创意工坊地图的链接地址或者地图的ID，例如:\r\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=XXX&searchtext=", "ok", MessageBoxButtons.RetryCancel, MessageBoxIcon.Information) == DialogResult.Retry)
+                    {
+                        goto Retry;
+                    }
+                }
+                else {
+                    XtraMessageBox.Show("请填写完整!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
         }
     }
 }

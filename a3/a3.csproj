@@ -464,12 +464,14 @@
     <Compile Include="Entity\BansUrlEntity.cs" />
     <Compile Include="Entity\BEServerCfgEntity.cs" />
     <Compile Include="Entity\CronEntity.cs" />
+    <Compile Include="Entity\DownloadProgressEntity.cs" />
     <Compile Include="Entity\LocalBansEntity.cs" />
     <Compile Include="Entity\MissionsEntity.cs" />
     <Compile Include="Entity\ModMeta.cs" />
     <Compile Include="Entity\ModsEntity.cs" />
     <Compile Include="Entity\ModuleScanPathEntity.cs" />
     <Compile Include="Entity\PlayerDB.cs" />
+    <Compile Include="Entity\PublishedFileDetailsEntity.cs" />
     <Compile Include="Entity\RconEntity.cs" />
     <Compile Include="Entity\ServerConfigEntity.cs" />
     <Compile Include="Entity\SkinEntity.cs" />
@@ -586,6 +588,12 @@
     <Compile Include="Tools\Security.cs" />
     <Compile Include="Tools\StartManagementTools.cs" />
     <Compile Include="Tools\SteamcmdTools.cs" />
+    <Compile Include="Window\DownloadMission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\DownloadMission.Designer.cs">
+      <DependentUpon>DownloadMission.cs</DependentUpon>
+    </Compile>
     <Compile Include="Window\QuickConfigurationWizard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -689,6 +697,9 @@
     </Compile>
     <EmbeddedResource Include="Load\Wait.resx">
       <DependentUpon>Wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\DownloadMission.resx">
+      <DependentUpon>DownloadMission.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\QuickConfigurationWizard.resx">
       <DependentUpon>QuickConfigurationWizard.cs</DependentUpon>

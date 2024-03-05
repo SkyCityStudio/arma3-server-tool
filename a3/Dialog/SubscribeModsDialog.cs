@@ -4,6 +4,7 @@ using DevExpress.Data;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Repository;
 using DevExpress.XtraGrid.Columns;
+using DevExpress.XtraRichEdit.Painters;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -88,9 +89,17 @@ namespace a3.Dialog
                         var CreateTime = startTime.AddSeconds(long.Parse(item["time_created"].ToString()));
                         var UpdateTime = startTime.AddSeconds(long.Parse(item["time_updated"].ToString()));
                         string previewUrl = item["preview_url"].ToString();
-                        WebRequest webreq = WebRequest.Create(previewUrl);
-                        WebResponse webres = webreq.GetResponse();
-                        Stream stream = webres.GetResponseStream();
+                        Image image = null; 
+                        try
+                        {
+                            WebRequest webreq = WebRequest.Create(previewUrl);
+                            WebResponse webres = webreq.GetResponse();
+                            Stream stream = webres.GetResponseStream();
+                            image = Image.FromStream(stream);
+                        }
+                        catch {
+  
+                        }
                         decimal size = Math.Round(decimal.Parse(item["file_size"].ToString()) / 1024 / 1024, 2);
                         JArray tags = JArray.Parse(item["tags"].ToString());
                         foreach (var tag in tags)
@@ -101,7 +110,7 @@ namespace a3.Dialog
                         this.Invoke(new Action(() => {
                             progressPanel1.Description = "正在加载模组:" + item["title"] + " (" + size + "MB" + ") " + index + "/" + jarray.Count;
                         }));
-                        dataTable.Rows.Add(true, item["title"], item["publishedfileid"], Image.FromStream(stream), size + "MB", item["description"], sb.Length > 0 ? sb.ToString().Substring(0, sb.Length - 1) : "", CreateTime, UpdateTime);
+                        dataTable.Rows.Add(true, item["title"], item["publishedfileid"], image, size + "MB", item["description"], sb.Length > 0 ? sb.ToString().Substring(0, sb.Length - 1) : "", CreateTime, UpdateTime);
                     }
 
                 }
